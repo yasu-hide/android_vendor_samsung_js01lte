@@ -52,4 +52,54 @@ LOCAL_DEX_PREOPT := false
 LOCAL_MODULE_SUFFIX := .apk
 include $(BUILD_PREBUILT)
 
+include $(CLEAR_VARS)
+LOCAL_MODULE := MobileFeliCaClient
+LOCAL_MODULE_OWNER := samsung
+LOCAL_SRC_FILES := proprietary/felica/app/MobileFeliCaClient.apk
+LOCAL_MODULE_TAGS := optional
+LOCAL_MODULE_SUFFIX := $(COMMON_ANDROID_PACKAGE_SUFFIX)
+LOCAL_MODULE_CLASS := APPS
+LOCAL_CERTIFICATE := platform
+include $(BUILD_PREBUILT)
+
+include $(CLEAR_VARS)
+LOCAL_MODULE := MobileFeliCaMenuApp
+LOCAL_MODULE_OWNER := samsung
+LOCAL_SRC_FILES := proprietary/felica/app/MobileFeliCaMenuApp.apk
+LOCAL_MODULE_TAGS := optional
+LOCAL_MODULE_SUFFIX := $(COMMON_ANDROID_PACKAGE_SUFFIX)
+LOCAL_MODULE_CLASS := APPS
+LOCAL_CERTIFICATE := platform
+include $(BUILD_PREBUILT)
+
+include $(CLEAR_VARS)
+LOCAL_MODULE := MobileFeliCaSettingApp
+LOCAL_MODULE_OWNER := samsung
+LOCAL_SRC_FILES := proprietary/felica/app/MobileFeliCaSettingApp.apk
+LOCAL_MODULE_TAGS := optional
+LOCAL_MODULE_SUFFIX := $(COMMON_ANDROID_PACKAGE_SUFFIX)
+LOCAL_MODULE_CLASS := APPS
+LOCAL_CERTIFICATE := platform
+include $(BUILD_PREBUILT)
+
+include $(CLEAR_VARS)
+LOCAL_MODULE := MobileFeliCaWebPluginBoot
+LOCAL_MODULE_OWNER := samsung
+LOCAL_SRC_FILES := proprietary/felica/app/MobileFeliCaWebPluginBoot.apk
+LOCAL_MODULE_TAGS := optional
+LOCAL_MODULE_SUFFIX := $(COMMON_ANDROID_PACKAGE_SUFFIX)
+LOCAL_MODULE_CLASS := APPS
+LOCAL_CERTIFICATE := platform
+include $(BUILD_PREBUILT)
+
+include $(CLEAR_VARS)
+LOCAL_MODULE := FeliCaLock
+LOCAL_MODULE_OWNER := samsung
+LOCAL_SRC_FILES := proprietary/felica/app/FeliCaLock.apk
+LOCAL_MODULE_TAGS := optional
+LOCAL_MODULE_SUFFIX := $(COMMON_ANDROID_PACKAGE_SUFFIX)
+LOCAL_MODULE_CLASS := APPS
+LOCAL_CERTIFICATE := platform
+include $(BUILD_PREBUILT)
+
 endif
