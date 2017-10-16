@@ -378,3 +378,4 @@ PRODUCT_PACKAGES += \
     TimeService \
 
 $(call inherit-product, vendor/samsung/js01lte/js01lte-vendor-felica.mk)
+$(call inherit-product, vendor/samsung/js01lte/js01lte-vendor-oneseg.mk)
