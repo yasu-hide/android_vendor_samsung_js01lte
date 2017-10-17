@@ -40,25 +40,6 @@ PRODUCT_COPY_FILES += \
 	vendor/samsung/js01lte/proprietary/oneseg/etc/one-seg/njccp932.ctb:/system/etc/one-seg/njccp932.ctb \
 	vendor/samsung/js01lte/proprietary/oneseg/etc/one-seg/tvfiles_database.db:/system/etc/one-seg/tvfiles_database.db \
 	vendor/samsung/js01lte/proprietary/oneseg/etc/permissions/mmb.xml:/system/etc/permissions/mmb.xml \
-	vendor/samsung/js01lte/proprietary/oneseg/framework/MmbFcBrowMw-res/MmbFcBrowMw-res.apk:/system/framework/MmbFcBrowMw-res/MmbFcBrowMw-res.apk \
-	vendor/samsung/js01lte/proprietary/oneseg/framework/MmbFcBrowMw.jar:/system/framework/MmbFcBrowMw.jar \
-	vendor/samsung/js01lte/proprietary/oneseg/framework/MmbFcContMw.jar:/system/framework/MmbFcContMw.jar \
-	vendor/samsung/js01lte/proprietary/oneseg/framework/MmbFcIndivdMw.jar:/system/framework/MmbFcIndivdMw.jar \
-	vendor/samsung/js01lte/proprietary/oneseg/framework/MmbFcMfestMw.jar:/system/framework/MmbFcMfestMw.jar \
-	vendor/samsung/js01lte/proprietary/oneseg/framework/MmbFcMp4Mw.jar:/system/framework/MmbFcMp4Mw.jar \
-	vendor/samsung/js01lte/proprietary/oneseg/framework/MmbFcPgInfoMw.jar:/system/framework/MmbFcPgInfoMw.jar \
-	vendor/samsung/js01lte/proprietary/oneseg/framework/MmbMoInfoMw.jar:/system/framework/MmbMoInfoMw.jar \
-	vendor/samsung/js01lte/proprietary/oneseg/framework/MmbPoServiceSp.jar:/system/framework/MmbPoServiceSp.jar \
-	vendor/samsung/js01lte/proprietary/oneseg/framework/MmbScSecClkMw.jar:/system/framework/MmbScSecClkMw.jar \
-	vendor/samsung/js01lte/proprietary/oneseg/framework/MmbSeMngMw.jar:/system/framework/MmbSeMngMw.jar \
-	vendor/samsung/js01lte/proprietary/oneseg/framework/MmbServiceLibrary.jar:/system/framework/MmbServiceLibrary.jar \
-	vendor/samsung/js01lte/proprietary/oneseg/framework/MmbSetting/MmbSetting.apk:/system/framework/MmbSetting/MmbSetting.apk \
-	vendor/samsung/js01lte/proprietary/oneseg/framework/MmbStBmlMw.jar:/system/framework/MmbStBmlMw.jar \
-	vendor/samsung/js01lte/proprietary/oneseg/framework/MmbStCtlMw.jar:/system/framework/MmbStCtlMw.jar \
-	vendor/samsung/js01lte/proprietary/oneseg/framework/MmbStRecCmMw.jar:/system/framework/MmbStRecCmMw.jar \
-	vendor/samsung/js01lte/proprietary/oneseg/framework/MmbStRecMw.jar:/system/framework/MmbStRecMw.jar \
-	vendor/samsung/js01lte/proprietary/oneseg/framework/minimode.jar:/system/framework/minimode.jar \
-	vendor/samsung/js01lte/proprietary/oneseg/framework/sechardware.jar:/system/framework/sechardware.jar \
 	vendor/samsung/js01lte/proprietary/oneseg/lib/libBroadcastProcObs.so:/system/lib/libBroadcastProcObs.so \
 	vendor/samsung/js01lte/proprietary/oneseg/lib/libISDBT_tuner.so:/system/lib/libISDBT_tuner.so \
 	vendor/samsung/js01lte/proprietary/oneseg/lib/libOneSegfactorytest_jni_fb.so:/system/lib/libOneSegfactorytest_jni_fb.so \
@@ -79,7 +60,3 @@ PRODUCT_COPY_FILES += \
 	vendor/samsung/js01lte/proprietary/oneseg/lib/libonesegutils.so:/system/lib/libonesegutils.so \
 	vendor/samsung/js01lte/proprietary/oneseg/lib/libsdsmcc.so:/system/lib/libsdsmcc.so \
 	vendor/samsung/js01lte/proprietary/oneseg/lib/libsdtvh264decoder.so:/system/lib/libsdtvh264decoder.so
-
-PRODUCT_COPY_FILES += \
-	vendor/samsung/js01lte/proprietary/oneseg/framework/twframework-res.apk:/system/framework/twframework-res.apk \
-	vendor/samsung/js01lte/proprietary/oneseg/framework/twframework.jar:/system/framework/twframework.jar
