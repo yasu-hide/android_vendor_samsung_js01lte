@@ -360,6 +360,12 @@ PRODUCT_PACKAGES += \
     FeliCaLock
 
 PRODUCT_PACKAGES += \
+    SmartcardService \
+    org.simalliance.openmobileapi \
+    org.simalliance.openmobileapi.xml
+PRODUCT_BOOT_JARS += org.simalliance.openmobileapi
+
+PRODUCT_PACKAGES += \
     libmm-abl \
     libtime_genoff \
     TimeService
