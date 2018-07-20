@@ -334,6 +334,7 @@ PRODUCT_COPY_FILES += \
     vendor/samsung/js01lte/proprietary/vendor/lib/libmmosal.so:system/vendor/lib/libmmosal.so \
     vendor/samsung/js01lte/proprietary/vendor/lib/libnetmgr.so:system/vendor/lib/libnetmgr.so \
     vendor/samsung/js01lte/proprietary/vendor/lib/liboemcamera.so:system/vendor/lib/liboemcamera.so \
+    vendor/samsung/js01lte/proprietary/vendor/lib/liboemcrypto.so:system/vendor/lib/liboemcrypto.so \
     vendor/samsung/js01lte/proprietary/vendor/lib/libperipheral_client.so:system/vendor/lib/libperipheral_client.so \
     vendor/samsung/js01lte/proprietary/vendor/lib/libqcci_legacy.so:system/vendor/lib/libqcci_legacy.so \
     vendor/samsung/js01lte/proprietary/vendor/lib/libqdi.so:system/vendor/lib/libqdi.so \
