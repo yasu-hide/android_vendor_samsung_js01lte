@@ -367,6 +367,61 @@ PRODUCT_COPY_FILES += \
     vendor/samsung/js01lte/proprietary/vendor/lib/soundfx/libqcreverb.so:system/vendor/lib/soundfx/libqcreverb.so \
     vendor/samsung/js01lte/proprietary/vendor/lib/soundfx/libqcvirt.so:system/vendor/lib/soundfx/libqcvirt.so
 
+## Oneseg
+PRODUCT_COPY_FILES += \
+    vendor/samsung/js01lte/proprietary/oneseg/etc/one-seg/bmlrom_15.wav:system/etc/one-seg/bmlrom_15.wav \
+    vendor/samsung/js01lte/proprietary/oneseg/etc/one-seg/bmlrom_2.wav:system/etc/one-seg/bmlrom_2.wav \
+    vendor/samsung/js01lte/proprietary/oneseg/etc/one-seg/tvfiles_database.db:system/etc/one-seg/tvfiles_database.db \
+    vendor/samsung/js01lte/proprietary/oneseg/etc/one-seg/debug.ini:system/etc/one-seg/debug.ini \
+    vendor/samsung/js01lte/proprietary/oneseg/etc/one-seg/bmlrom_0.wav:system/etc/one-seg/bmlrom_0.wav \
+    vendor/samsung/js01lte/proprietary/oneseg/etc/one-seg/bmlrom_6.wav:system/etc/one-seg/bmlrom_6.wav \
+    vendor/samsung/js01lte/proprietary/oneseg/etc/one-seg/bml.db:system/etc/one-seg/bml.db \
+    vendor/samsung/js01lte/proprietary/oneseg/etc/one-seg/bmlrom_8.wav:system/etc/one-seg/bmlrom_8.wav \
+    vendor/samsung/js01lte/proprietary/oneseg/etc/one-seg/bmlrom_12.wav:system/etc/one-seg/bmlrom_12.wav \
+    vendor/samsung/js01lte/proprietary/oneseg/etc/one-seg/bmlrom_7.wav:system/etc/one-seg/bmlrom_7.wav \
+    vendor/samsung/js01lte/proprietary/oneseg/etc/one-seg/bmlrom_9.wav:system/etc/one-seg/bmlrom_9.wav \
+    vendor/samsung/js01lte/proprietary/oneseg/etc/one-seg/bmlrom_10.wav:system/etc/one-seg/bmlrom_10.wav \
+    vendor/samsung/js01lte/proprietary/oneseg/etc/one-seg/bmlrom_11.wav:system/etc/one-seg/bmlrom_11.wav \
+    vendor/samsung/js01lte/proprietary/oneseg/etc/one-seg/bmlrom_13.wav:system/etc/one-seg/bmlrom_13.wav \
+    vendor/samsung/js01lte/proprietary/oneseg/etc/one-seg/bmlrom_3.wav:system/etc/one-seg/bmlrom_3.wav \
+    vendor/samsung/js01lte/proprietary/oneseg/etc/one-seg/bmlrom_14.wav:system/etc/one-seg/bmlrom_14.wav \
+    vendor/samsung/js01lte/proprietary/oneseg/etc/one-seg/bmlrom_5.wav:system/etc/one-seg/bmlrom_5.wav \
+    vendor/samsung/js01lte/proprietary/oneseg/etc/one-seg/njccp932.ctb:system/etc/one-seg/njccp932.ctb \
+    vendor/samsung/js01lte/proprietary/oneseg/etc/one-seg/bmlrom_4.wav:system/etc/one-seg/bmlrom_4.wav \
+    vendor/samsung/js01lte/proprietary/oneseg/etc/one-seg/bmlrom_1.wav:system/etc/one-seg/bmlrom_1.wav \
+    vendor/samsung/js01lte/proprietary/oneseg/fonts/BML.ttf:system/fonts/BML.ttf \
+    vendor/samsung/js01lte/proprietary/oneseg/lib/libBML.so:system/vendor/lib/libBML.so \
+    vendor/samsung/js01lte/proprietary/oneseg/lib/libBroadcastProcObs.so:system/vendor/lib/libBroadcastProcObs.so \
+    vendor/samsung/js01lte/proprietary/oneseg/lib/libSDtvService.so:system/vendor/lib/libSDtvService.so \
+    vendor/samsung/js01lte/proprietary/oneseg/lib/libSDtvStack.so:system/vendor/lib/libSDtvStack.so \
+    vendor/samsung/js01lte/proprietary/oneseg/lib/libonesegdmxdriver.so:system/vendor/lib/libonesegdmxdriver.so \
+    vendor/samsung/js01lte/proprietary/oneseg/lib/libSDtvAout.so:system/vendor/lib/libSDtvAout.so \
+    vendor/samsung/js01lte/proprietary/oneseg/lib/libonesegsp.so:system/vendor/lib/libonesegsp.so \
+    vendor/samsung/js01lte/proprietary/oneseg/lib/libOneSegfactorytest_jni_fb.so:system/vendor/lib/libOneSegfactorytest_jni_fb.so \
+    vendor/samsung/js01lte/proprietary/oneseg/lib/libsdtvh264decoder.so:system/vendor/lib/libsdtvh264decoder.so \
+    vendor/samsung/js01lte/proprietary/oneseg/lib/libonesegdsmcc.so:system/vendor/lib/libonesegdsmcc.so \
+    vendor/samsung/js01lte/proprietary/oneseg/lib/libSDtvVout.so:system/vendor/lib/libSDtvVout.so \
+    vendor/samsung/js01lte/proprietary/oneseg/lib/libPGL.so:system/vendor/lib/libPGL.so \
+    vendor/samsung/js01lte/proprietary/oneseg/lib/libmorpho_frame_interp2.so:system/vendor/lib/libmorpho_frame_interp2.so \
+    vendor/samsung/js01lte/proprietary/oneseg/lib/libsdsmcc.so:system/vendor/lib/libsdsmcc.so \
+    vendor/samsung/js01lte/proprietary/oneseg/lib/libonesegbmlpeer.so:system/vendor/lib/libonesegbmlpeer.so \
+    vendor/samsung/js01lte/proprietary/oneseg/lib/libISDBT_tuner.so:system/vendor/lib/libISDBT_tuner.so \
+    vendor/samsung/js01lte/proprietary/oneseg/lib/libonesegutils.so:system/vendor/lib/libonesegutils.so
+
+PRODUCT_PACKAGES += \
+    broadcastProcessObserver \
+    BMLEngineServer \
+    SDtvService \
+    OneSegDsmcc \
+    isdbtmmtest \
+    ISDBT_FactoryTest \
+    MobileTV_JPN_PHONE_K
+
+PRODUCT_PACKAGES += \
+    libISDBT_FactoryTestJNI \
+    libbroadcastForOneSeg_jni \
+    libBMLJNI
+
 PRODUCT_PACKAGES += \
     libmm-abl \
     libtime_genoff \
