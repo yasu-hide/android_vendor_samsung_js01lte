@@ -1,0 +1,111 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- version:20110826001 -->
+<TVAMain xml:lang="ja" xmlns="http://www.arib.or.jp/metadata/tva/2011/03" xmlns:mpeg7="urn:mpeg:mpeg7:schema:2001" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <ClassificationSchemeTable>
+    <ClassificationScheme uri="http://www.isdb-t.jp/cs/2011/03/ISDBTMMHowRelatedCS" fragmentId="0010000001" fragmentVersion="20110301000000">
+      <mpeg7:Term termID="22">
+        <mpeg7:Name xml:lang="en">Series Info</mpeg7:Name>
+        <mpeg7:Name xml:lang="ja">シリーズ情報</mpeg7:Name>
+        <mpeg7:Definition xml:lang="ja">参照するシリーズ情報へのポインタ。例：参照する番組配列情報（SI）のシリーズ識別（series_id）を知ることができる。</mpeg7:Definition>
+      </mpeg7:Term>
+      <mpeg7:Term termID="23">
+        <mpeg7:Name xml:lang="en">Series GI</mpeg7:Name>
+        <mpeg7:Name xml:lang="ja">シリーズGI</mpeg7:Name>
+        <mpeg7:Definition xml:lang="ja">参照するシリーズGIへのポインタ。例：番組情報要素（PI）からシリーズGI（CRIDにseries_idを含む）へのリンク</mpeg7:Definition>
+      </mpeg7:Term>
+      <mpeg7:Term termID="24">
+        <mpeg7:Name xml:lang="en">hyper linkage type</mpeg7:Name>
+        <mpeg7:Name xml:lang="ja">ハイパーリンク種別</mpeg7:Name>
+        <mpeg7:Definition xml:lang="ja"> EIT/hyperlink_descriptor/hyper_linkage_typeからのマッピング</mpeg7:Definition>
+      </mpeg7:Term>
+      <mpeg7:Term termID="24.1">
+        <mpeg7:Name xml:lang="en">combined data</mpeg7:Name>
+        <mpeg7:Definition xml:lang="ja">関連情報がテレビ番組とは別の時間枠、別のサービスで放送される場合に、テレビ番組から関連情報が放送されるデータ放送番組を指示するために用いる</mpeg7:Definition>
+      </mpeg7:Term>
+      <mpeg7:Term termID="24.2">
+        <mpeg7:Name xml:lang="en">combined stream</mpeg7:Name>
+        <mpeg7:Definition xml:lang="ja">関連情報がテレビ番組とは別の時間枠、別のサービスで放送される場合に、関連情報が放送されるデータ放送番組からテレビ番組を指示するために用いる。</mpeg7:Definition>
+      </mpeg7:Term>
+      <mpeg7:Term termID="24.3">
+        <mpeg7:Name xml:lang="en">content to index</mpeg7:Name>
+        <mpeg7:Definition xml:lang="ja">番組内インデックス情報が、テレビ番組とは別の時間枠、別のサービスで放送される場合に、テレビ番組から、番組内インデックス情報が放送される番組を指示するために用いる。</mpeg7:Definition>
+      </mpeg7:Term>
+      <mpeg7:Term termID="24.4">
+        <mpeg7:Name xml:lang="en">index to content</mpeg7:Name>
+        <mpeg7:Definition xml:lang="ja">番組内インデックス情報が、テレビ番組とは別の時間枠、別のサービスで放送される場合に、番組内インデックス情報が放送される番組から、テレビ番組を指示するために用いる。</mpeg7:Definition>
+      </mpeg7:Term>
+      <mpeg7:Term termID="24.5">
+        <mpeg7:Name xml:lang="en">guide data</mpeg7:Name>
+        <mpeg7:Definition xml:lang="ja">当該番組の番組案内情報が、別のデータ放送番組で放送される場合に、その番組案内データ放送番組を指示する。</mpeg7:Definition>
+      </mpeg7:Term>
+      <mpeg7:Term termID="24.7">
+        <mpeg7:Name xml:lang="en">content to metadata</mpeg7:Name>
+        <mpeg7:Definition xml:lang="ja">メタデータが、テレビ番組、データ放送番組とは別の時間枠、別のサービスで放送される場合に、テレビ番組、データ放送番組から、メタデータが放送される番組、サービスを指示するために用いる。</mpeg7:Definition>
+      </mpeg7:Term>
+      <mpeg7:Term termID="24.8">
+        <mpeg7:Name xml:lang="en">metadata to content</mpeg7:Name>
+        <mpeg7:Definition xml:lang="ja">メタデータが、テレビ番組、データ放送番組とは別の時間枠、別のサービスで放送される場合に、メタデータが放送される番組、サービスから、テレビ番組、データ放送番組を指示するために用いる。</mpeg7:Definition>
+      </mpeg7:Term>
+      <mpeg7:Term termID="24.9">
+        <mpeg7:Name xml:lang="en">portal URI</mpeg7:Name>
+        <mpeg7:Definition xml:lang="ja">ポータルリンク先URI を指示するために用いる。</mpeg7:Definition>
+      </mpeg7:Term>
+      <mpeg7:Term termID="24.10">
+        <mpeg7:Name xml:lang="en">authority URI</mpeg7:Name>
+        <mpeg7:Definition xml:lang="ja">Authority のURI を指示するために用いる。</mpeg7:Definition>
+      </mpeg7:Term>
+      <mpeg7:Term termID="24.40">
+        <mpeg7:Name xml:lang="en">index module</mpeg7:Name>
+        <mpeg7:Definition xml:lang="ja">データ放送番組の番組内インデックスとして使用するLITにおいてのみ使用し、ローカルイベント識別とデータ放送番組のモジュールの対応関係を示すために用いる。</mpeg7:Definition>
+      </mpeg7:Term>
+      <mpeg7:Term termID="25">
+        <mpeg7:Name xml:lang="en">image</mpeg7:Name>
+        <mpeg7:Name xml:lang="ja">画像</mpeg7:Name>
+        <mpeg7:Definition xml:lang="ja"> MediaTitle/TitleImage以外で画像指定時に利用</mpeg7:Definition>
+      </mpeg7:Term>
+      <mpeg7:Term termID="25.1">
+        <mpeg7:Name xml:lang="en">image large</mpeg7:Name>
+        <mpeg7:Name xml:lang="ja">画像（大）</mpeg7:Name>
+      </mpeg7:Term>
+      <mpeg7:Term termID="25.2">
+        <mpeg7:Name xml:lang="en">image small</mpeg7:Name>
+        <mpeg7:Name xml:lang="ja">画像（小）</mpeg7:Name>
+      </mpeg7:Term>
+      <mpeg7:Term termID="25.3">
+        <mpeg7:Name xml:lang="en">channel logo</mpeg7:Name>
+        <mpeg7:Name xml:lang="ja">チャンネルロゴ</mpeg7:Name>
+        <mpeg7:Definition xml:lang="ja">EPGなどで利用するチャンネルロゴ画像</mpeg7:Definition>
+      </mpeg7:Term>
+      <mpeg7:Term termID="26">
+        <mpeg7:Name xml:lang="en">external application</mpeg7:Name>
+        <mpeg7:Name xml:lang="ja">外部アプリケーション</mpeg7:Name>
+        <mpeg7:Definition xml:lang="ja">外部アプリケーションを起動時に利用</mpeg7:Definition>
+      </mpeg7:Term>
+      <mpeg7:Term termID="26.1">
+        <mpeg7:Name xml:lang="en">browser</mpeg7:Name>
+        <mpeg7:Name xml:lang="ja">ブラウザ</mpeg7:Name>
+        <mpeg7:Definition xml:lang="ja">ブラウザ起動（記載URLを引き渡し）</mpeg7:Definition>
+      </mpeg7:Term>
+      <mpeg7:Term termID="26.2">
+        <mpeg7:Name xml:lang="en">mail</mpeg7:Name>
+        <mpeg7:Name xml:lang="ja">メール</mpeg7:Name>
+        <mpeg7:Definition xml:lang="ja">メール起動（記載アドレスを引き渡し）</mpeg7:Definition>
+      </mpeg7:Term>
+      <mpeg7:Term termID="26.3">
+        <mpeg7:Name xml:lang="en">native</mpeg7:Name>
+        <mpeg7:Name xml:lang="ja">ネイティブアプリケーション</mpeg7:Name>
+        <mpeg7:Definition xml:lang="ja">ネイティブアプリケ―ションを起動</mpeg7:Definition>
+      </mpeg7:Term>
+      <mpeg7:Term termID="27">
+        <mpeg7:Name xml:lang="en">comment</mpeg7:Name>
+        <mpeg7:Name xml:lang="ja">コメント</mpeg7:Name>
+        <mpeg7:Definition xml:lang="ja">当該コンテンツに対するコメントを投稿する為のURLを指示</mpeg7:Definition>
+      </mpeg7:Term>
+      <mpeg7:Term termID="28">
+        <mpeg7:Name xml:lang="en">simultaneous store</mpeg7:Name>
+        <mpeg7:Name xml:lang="ja">同時蓄積</mpeg7:Name>
+        <mpeg7:Definition xml:lang="ja">本コンテンツの蓄積（予約）時に合わせて蓄積（予約）するコンテンツのCRIDを記載</mpeg7:Definition>
+      </mpeg7:Term>
+    </ClassificationScheme>
+  </ClassificationSchemeTable>
+</TVAMain>

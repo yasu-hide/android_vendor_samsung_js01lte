@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- version:20110826001 -->
+<TVAMain xml:lang="ja" xmlns="http://www.arib.or.jp/metadata/tva/2011/03" xmlns:mpeg7="urn:mpeg:mpeg7:schema:2001" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <ClassificationSchemeTable>
+    <ClassificationScheme uri="http://www.isdb-t.jp/cs/2011/03/ISDBTMMFileFormatCS" fragmentId="0010000002" fragmentVersion="20110301000000">
+      <!-- ISDBTMM共通（全端末が利用可） -->
+      <!-- ARIBFileFormatCSの"html、mp4、jpg、gif、zip" -->
+      <!-- 複数リソース（複数動画像ファイル）が含まれるコンテンツ用 ※付録4　2.4　節参照-->
+      <mpeg7:Term termID="container">
+        <mpeg7:Name xml:lang="en">container</mpeg7:Name>
+        <mpeg7:Definition xml:lang="ja">複数リソースが含まれるコンテンツ</mpeg7:Definition>
+      </mpeg7:Term>
+      <!-- 委託事業者個別（端末により利用可／不可が生じる） -->
+      <!-- ARIBFileFormatCSの“pdf、flv、swf、wmv、wma、mp3、mpo、png、mpg、ts、txt、shtml、xhtml、xml、bml、cgi、saac"など -->
+      <!-- 委託事業者個別は、本ISDBTMMFileFormatCS内だけでなく、委託事業者の独自FileFormatCSで規定することも可 -->
+      <!-- 受信機事業者個別（特定受信機事業者の端末でのみ利用可） -->
+      <!-- 各受信機事業者の独自FileFormatCSで規定 -->
+      <!-- EIT/hyperlink_descriptor/link_destination_typeのマッピング -->
+      <mpeg7:Term termID="eit.1">
+        <mpeg7:Name xml:lang="en">link to service</mpeg7:Name>
+        <mpeg7:Definition xml:lang="ja">リンクの対象がサービス</mpeg7:Definition>
+      </mpeg7:Term>
+      <mpeg7:Term termID="eit.2">
+        <mpeg7:Name xml:lang="en">link to event</mpeg7:Name>
+        <mpeg7:Definition xml:lang="ja">リンクの対象がイベント</mpeg7:Definition>
+      </mpeg7:Term>
+      <mpeg7:Term termID="eit.3">
+        <mpeg7:Name xml:lang="en">lin to module</mpeg7:Name>
+        <mpeg7:Definition xml:lang="ja">リンクの対象がイベントの特定モジュール</mpeg7:Definition>
+      </mpeg7:Term>
+      <mpeg7:Term termID="eit.4">
+        <mpeg7:Name xml:lang="en">link to content</mpeg7:Name>
+        <mpeg7:Definition xml:lang="ja">リンクの対象がコンテント</mpeg7:Definition>
+      </mpeg7:Term>
+      <mpeg7:Term termID="eit.5">
+        <mpeg7:Name xml:lang="en">link_to_content_module</mpeg7:Name>
+        <mpeg7:Definition xml:lang="ja">リンクの対象がコンテントの特定モジュール</mpeg7:Definition>
+      </mpeg7:Term>
+      <mpeg7:Term termID="eit.6">
+        <mpeg7:Name xml:lang="en">link to ert node</mpeg7:Name>
+        <mpeg7:Definition xml:lang="ja">リンクの対象がイベント関係テーブルのノード</mpeg7:Definition>
+      </mpeg7:Term>
+      <mpeg7:Term termID="eit.7">
+        <mpeg7:Name xml:lang="en">link to stored content</mpeg7:Name>
+        <mpeg7:Definition xml:lang="ja">リンクの対象が蓄積コンテント</mpeg7:Definition>
+      </mpeg7:Term>
+    </ClassificationScheme>
+  </ClassificationSchemeTable>
+</TVAMain>

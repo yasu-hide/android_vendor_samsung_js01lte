@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- version:20110826001 -->
+<TVAMain xml:lang="ja" xmlns="http://www.arib.or.jp/metadata/tva/2011/03" xmlns:mpeg7="urn:mpeg:mpeg7:schema:2001" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <ClassificationSchemeTable>
+    <ClassificationScheme uri="http://www.arib.or.jp/cs/2011/03/ARIBVisualCodingFormatCS" fragmentId="0000000012" fragmentVersion="20110301000000">
+      <mpeg7:Term termID="1">
+        <mpeg7:Name xml:lang="en">MPEG-2</mpeg7:Name>
+      </mpeg7:Term>
+      <mpeg7:Term termID="2">
+        <mpeg7:Name xml:lang="en">H.264/MPEG-4 AVC</mpeg7:Name>
+      </mpeg7:Term>
+    </ClassificationScheme>
+  </ClassificationSchemeTable>
+</TVAMain>

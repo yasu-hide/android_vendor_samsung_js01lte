@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- version:20110826001 -->
+<TVAMain xml:lang="ja" xmlns="http://www.arib.or.jp/metadata/tva/2011/03" xmlns:mpeg7="urn:mpeg:mpeg7:schema:2001" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <ClassificationSchemeTable>
+    <ClassificationScheme uri="http://www.arib.or.jp/cs/2010/04/ARIBUnitTypeCS" fragmentId="0000000008" fragmentVersion="20100401000000">
+      <mpeg7:Term termID="minute">
+        <mpeg7:Name xml:lang="ja">分</mpeg7:Name>
+        <mpeg7:Definition xml:lang="ja">単位時間：１分</mpeg7:Definition>
+      </mpeg7:Term>
+      <mpeg7:Term termID="hour">
+        <mpeg7:Name xml:lang="ja">時間</mpeg7:Name>
+        <mpeg7:Definition xml:lang="ja">単位時間：１時間</mpeg7:Definition>
+      </mpeg7:Term>
+      <mpeg7:Term termID="day">
+        <mpeg7:Name xml:lang="en">day</mpeg7:Name>
+        <mpeg7:Name xml:lang="ja">日</mpeg7:Name>
+        <mpeg7:Definition xml:lang="ja">単位時間：1 日（24 時間）</mpeg7:Definition>
+      </mpeg7:Term>
+      <mpeg7:Term termID="week">
+        <mpeg7:Name xml:lang="ja">週</mpeg7:Name>
+        <mpeg7:Definition xml:lang="ja">単位時間：１週（168 時間）</mpeg7:Definition>
+      </mpeg7:Term>
+      <mpeg7:Term termID="month">
+        <mpeg7:Name xml:lang="ja">ヶ月</mpeg7:Name>
+        <mpeg7:Definition xml:lang="ja">単位時間：１ヶ月 </mpeg7:Definition>
+      </mpeg7:Term>
+      <mpeg7:Term termID="year">
+        <mpeg7:Name xml:lang="ja">年</mpeg7:Name>
+        <mpeg7:Definition xml:lang="ja">単位時間：１年</mpeg7:Definition>
+      </mpeg7:Term>
+      <mpeg7:Term termID="counts">
+        <mpeg7:Name xml:lang="ja">回</mpeg7:Name>
+        <mpeg7:Definition xml:lang="ja">単位：回数 ※セレクトの場合に用いる選択可能なコンテンツ数を指定</mpeg7:Definition>
+      </mpeg7:Term>
+    </ClassificationScheme>
+  </ClassificationSchemeTable>
+</TVAMain>

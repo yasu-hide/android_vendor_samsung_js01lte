@@ -1,0 +1,14 @@
+// Date : 2012/09/25
+// File : MN88552_RF_20120925.rgs
+// 内容 : LSI初期値からの差分
+//
+//
+MIXSET1		,0	,&H5E	,&H03	,
+UVSEL		,0	,&H48	,&HC4	,
+VCONTIU		,0	,&H86	,&H08	,
+VCONTIL		,0	,&H87	,&HCE	,
+TRIM2		,0	,&H95	,&H14	,
+ADCSET1		,0	,&H9D	,&H08	,
+//	RF(PLL1CAL用にTNCTLが使用)
+PLL1SET4	,0	,&H92	,&H1E	,
+

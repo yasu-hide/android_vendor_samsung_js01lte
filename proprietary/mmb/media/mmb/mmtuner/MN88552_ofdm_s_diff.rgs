@@ -1,0 +1,10 @@
+// 2012.11.08
+//   Optimize for Channnel Search
+MDASET        , 2           ,&H12         ,&H11         ,
+STTOSET2      , 2           ,&H18         ,&HB6         ,
+DMDERRTH      , 2           ,&H37         ,&H08         ,
+EQDSET6       , 2           ,&H44         ,&HB0         ,
+OFDMREFM      , 2           ,&H60         ,&H15         ,
+FECSET2       , 2           ,&HA8         ,&H90         ,
+INTSET1       , 2           ,&HC9         ,&H01         ,
+SSLCKSET      , 2           ,&H1A         ,&H68         ,

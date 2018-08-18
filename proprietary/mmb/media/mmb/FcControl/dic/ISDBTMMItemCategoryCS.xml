@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- version:20111012001 -->
+<TVAMain xml:lang="ja" xmlns="http://www.arib.or.jp/metadata/tva/2011/03" xmlns:mpeg7="urn:mpeg:mpeg7:schema:2001" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <ClassificationSchemeTable>
+    <ClassificationScheme uri="http://www.isdb-t.jp/cs/2011/03/ISDBTMMItemCategoryCS" fragmentId="0010000005" fragmentVersion="20110301000000">
+      <!-- 
+　コンテンツのカテゴリ、並びに、メタデータの属性を定義。:Genre/@hrefで記載
+// -->
+      <!-- コンテンツのカテゴリ。必ず１つ記載-->
+      <mpeg7:Term termID="RT">
+        <mpeg7:Name xml:lang="ja">リアルタイム型放送</mpeg7:Name>
+        <mpeg7:Name xml:lang="en">real-time broadcasting</mpeg7:Name>
+        <mpeg7:Definition xml:lang="ja">リアルタイム型放送コンテンツ</mpeg7:Definition>
+      </mpeg7:Term>
+      <mpeg7:Term termID="FD">
+        <mpeg7:Name xml:lang="ja">蓄積型放送</mpeg7:Name>
+        <mpeg7:Name xml:lang="en">file download type broadcasting</mpeg7:Name>
+        <mpeg7:Definition xml:lang="ja">蓄積型放送コンテンツ</mpeg7:Definition>
+      </mpeg7:Term>
+      <mpeg7:Term termID="CH">
+        <mpeg7:Name xml:lang="ja">チャンネル（サービス）</mpeg7:Name>
+        <mpeg7:Name xml:lang="en">channel(service)</mpeg7:Name>
+        <mpeg7:Definition xml:lang="ja">チャンネル・サービス情報</mpeg7:Definition>
+      </mpeg7:Term>
+      <!-- 号外フラグ -->
+      <mpeg7:Term termID="gougai">
+        <mpeg7:Name xml:lang="ja">号外コンテンツ</mpeg7:Name>
+        <mpeg7:Name xml:lang="en">extra content</mpeg7:Name>
+        <mpeg7:Definition xml:lang="ja">号外コンテンツのメタデータに付与。号外が解かれると外す処理要</mpeg7:Definition>
+      </mpeg7:Term>
+      <!--トレイラーフラグ -->
+      <mpeg7:Term termID="trailer">
+        <mpeg7:Name xml:lang="ja">トレイラー（予告編）コンテンツ</mpeg7:Name>
+        <mpeg7:Name xml:lang="en">trailer content</mpeg7:Name>
+        <mpeg7:Definition xml:lang="ja">トレイラーコンテンツのメタデータに付与。トレイラーコンテンツ（のCRID）は、本篇となるコンテンツのMediaTitle/TitleVideo、または、RelatedMaterialで指定される。</mpeg7:Definition>
+      </mpeg7:Term>
+      <!-- 検索対象の是非 -->
+      <mpeg7:Term termID="search.ok">
+        <mpeg7:Name xml:lang="ja">検索対象</mpeg7:Name>
+        <mpeg7:Name xml:lang="en">Searchable</mpeg7:Name>
+        <mpeg7:Definition xml:lang="ja">検索結果で表示するメタデータに付随。例：グループの場合、グループに付与し、グループの子には付与しないことで、グループが検索結果に表示される</mpeg7:Definition>
+      </mpeg7:Term>
+      <!-- UI上での非表示フラグ -->
+      <mpeg7:Term termID="display.ng">
+        <mpeg7:Name xml:lang="ja">非表示</mpeg7:Name>
+        <mpeg7:Name xml:lang="en">nondisplay</mpeg7:Name>
+        <mpeg7:Definition xml:lang="ja">EPG/ECG上で表示したくないコンテンツ（メタデータ）に付与。検索対象（search.ok）と併用可</mpeg7:Definition>
+      </mpeg7:Term>
+    </ClassificationScheme>
+  </ClassificationSchemeTable>
+</TVAMain>

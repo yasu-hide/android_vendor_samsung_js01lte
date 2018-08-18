@@ -1,0 +1,748 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- version:20110826001 -->
+<TVAMain xml:lang="ja" xmlns="http://www.arib.or.jp/metadata/tva/2011/03" xmlns:mpeg7="urn:mpeg:mpeg7:schema:2001" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <ClassificationSchemeTable>
+    <ClassificationScheme uri="http://www.arib.or.jp/cs/2010/04/ARIBGenreCS2" fragmentId="0000000002" fragmentVersion="20100401000000">
+      <mpeg7:Term termID="0">
+        <mpeg7:Name xml:lang="ja">ニュース／報道</mpeg7:Name>
+        <mpeg7:Definition xml:lang="ja">ニュース・天気</mpeg7:Definition>
+      </mpeg7:Term>
+      <mpeg7:Term termID="0.0">
+        <mpeg7:Name xml:lang="ja">定時・総合</mpeg7:Name>
+        <mpeg7:Definition xml:lang="ja">ニュース・天気</mpeg7:Definition>
+      </mpeg7:Term>
+      <mpeg7:Term termID="0.1">
+        <mpeg7:Name xml:lang="ja">天気</mpeg7:Name>
+        <mpeg7:Definition xml:lang="ja">ニュース・天気</mpeg7:Definition>
+      </mpeg7:Term>
+      <mpeg7:Term termID="0.10">
+        <mpeg7:Name xml:lang="ja">交通</mpeg7:Name>
+        <mpeg7:Definition xml:lang="ja">ニュース・天気</mpeg7:Definition>
+      </mpeg7:Term>
+      <mpeg7:Term termID="0.15">
+        <mpeg7:Name xml:lang="ja">その他</mpeg7:Name>
+        <mpeg7:Definition xml:lang="ja">ニュース・天気</mpeg7:Definition>
+      </mpeg7:Term>
+      <mpeg7:Term termID="0.2">
+        <mpeg7:Name xml:lang="ja">特集・ドキュメント</mpeg7:Name>
+        <mpeg7:Definition xml:lang="ja">ニュース・天気</mpeg7:Definition>
+      </mpeg7:Term>
+      <mpeg7:Term termID="0.3">
+        <mpeg7:Name xml:lang="ja">政治・国会</mpeg7:Name>
+        <mpeg7:Definition xml:lang="ja">ニュース・天気</mpeg7:Definition>
+      </mpeg7:Term>
+      <mpeg7:Term termID="0.4">
+        <mpeg7:Name xml:lang="ja">経済・市況</mpeg7:Name>
+        <mpeg7:Definition xml:lang="ja">ニュース・天気</mpeg7:Definition>
+      </mpeg7:Term>
+      <mpeg7:Term termID="0.5">
+        <mpeg7:Name xml:lang="ja">海外・国際</mpeg7:Name>
+        <mpeg7:Definition xml:lang="ja">ニュース・天気</mpeg7:Definition>
+      </mpeg7:Term>
+      <mpeg7:Term termID="0.6">
+        <mpeg7:Name xml:lang="ja">解説</mpeg7:Name>
+        <mpeg7:Definition xml:lang="ja">ニュース・天気</mpeg7:Definition>
+      </mpeg7:Term>
+      <mpeg7:Term termID="0.7">
+        <mpeg7:Name xml:lang="ja">討論・会談</mpeg7:Name>
+        <mpeg7:Definition xml:lang="ja">ニュース・天気</mpeg7:Definition>
+      </mpeg7:Term>
+      <mpeg7:Term termID="0.8">
+        <mpeg7:Name xml:lang="ja">報道特番</mpeg7:Name>
+        <mpeg7:Definition xml:lang="ja">ニュース・天気</mpeg7:Definition>
+      </mpeg7:Term>
+      <mpeg7:Term termID="0.9">
+        <mpeg7:Name xml:lang="ja">ローカル・地域</mpeg7:Name>
+        <mpeg7:Definition xml:lang="ja">ニュース・天気</mpeg7:Definition>
+      </mpeg7:Term>
+      <mpeg7:Term termID="1">
+        <mpeg7:Name xml:lang="ja">スポーツ</mpeg7:Name>
+        <mpeg7:Definition xml:lang="ja">スポーツ</mpeg7:Definition>
+      </mpeg7:Term>
+      <mpeg7:Term termID="1.0">
+        <mpeg7:Name xml:lang="ja">スポーツニュース</mpeg7:Name>
+        <mpeg7:Definition xml:lang="ja">スポーツ</mpeg7:Definition>
+      </mpeg7:Term>
+      <mpeg7:Term termID="1.1">
+        <mpeg7:Name xml:lang="ja">野球</mpeg7:Name>
+        <mpeg7:Definition xml:lang="ja">スポーツ</mpeg7:Definition>
+      </mpeg7:Term>
+      <mpeg7:Term termID="1.10">
+        <mpeg7:Name xml:lang="ja">競馬・公営競技</mpeg7:Name>
+        <mpeg7:Definition xml:lang="ja">スポーツ</mpeg7:Definition>
+      </mpeg7:Term>
+      <mpeg7:Term termID="1.15">
+        <mpeg7:Name xml:lang="ja">その他</mpeg7:Name>
+        <mpeg7:Definition xml:lang="ja">スポーツ</mpeg7:Definition>
+      </mpeg7:Term>
+      <mpeg7:Term termID="1.2">
+        <mpeg7:Name xml:lang="ja">サッカー</mpeg7:Name>
+        <mpeg7:Definition xml:lang="ja">スポーツ</mpeg7:Definition>
+      </mpeg7:Term>
+      <mpeg7:Term termID="1.3">
+        <mpeg7:Name xml:lang="ja">ゴルフ</mpeg7:Name>
+        <mpeg7:Definition xml:lang="ja">スポーツ</mpeg7:Definition>
+      </mpeg7:Term>
+      <mpeg7:Term termID="1.4">
+        <mpeg7:Name xml:lang="ja">その他の球技</mpeg7:Name>
+        <mpeg7:Definition xml:lang="ja">スポーツ</mpeg7:Definition>
+      </mpeg7:Term>
+      <mpeg7:Term termID="1.5">
+        <mpeg7:Name xml:lang="ja">相撲・格闘技</mpeg7:Name>
+        <mpeg7:Definition xml:lang="ja">スポーツ</mpeg7:Definition>
+      </mpeg7:Term>
+      <mpeg7:Term termID="1.6">
+        <mpeg7:Name xml:lang="ja">オリンピック・国際大会</mpeg7:Name>
+        <mpeg7:Definition xml:lang="ja">スポーツ</mpeg7:Definition>
+      </mpeg7:Term>
+      <mpeg7:Term termID="1.7">
+        <mpeg7:Name xml:lang="ja">マラソン・陸上・水泳</mpeg7:Name>
+        <mpeg7:Definition xml:lang="ja">スポーツ</mpeg7:Definition>
+      </mpeg7:Term>
+      <mpeg7:Term termID="1.8">
+        <mpeg7:Name xml:lang="ja">モータースポーツ</mpeg7:Name>
+        <mpeg7:Definition xml:lang="ja">スポーツ</mpeg7:Definition>
+      </mpeg7:Term>
+      <mpeg7:Term termID="1.9">
+        <mpeg7:Name xml:lang="ja">マリン・ウィンタースポーツ</mpeg7:Name>
+        <mpeg7:Definition xml:lang="ja">スポーツ</mpeg7:Definition>
+      </mpeg7:Term>
+      <mpeg7:Term termID="2">
+        <mpeg7:Name xml:lang="ja">情報／ワイドショー</mpeg7:Name>
+        <mpeg7:Definition xml:lang="ja">エンターテイメント</mpeg7:Definition>
+      </mpeg7:Term>
+      <mpeg7:Term termID="2.0">
+        <mpeg7:Name xml:lang="ja">芸能・ワイドショー</mpeg7:Name>
+        <mpeg7:Definition xml:lang="ja">エンターテイメント</mpeg7:Definition>
+      </mpeg7:Term>
+      <mpeg7:Term termID="2.1">
+        <mpeg7:Name xml:lang="ja">ファッション</mpeg7:Name>
+        <mpeg7:Definition xml:lang="ja">エンターテイメント</mpeg7:Definition>
+      </mpeg7:Term>
+      <mpeg7:Term termID="2.15">
+        <mpeg7:Name xml:lang="ja">その他</mpeg7:Name>
+        <mpeg7:Definition xml:lang="ja">エンターテイメント</mpeg7:Definition>
+      </mpeg7:Term>
+      <mpeg7:Term termID="2.2">
+        <mpeg7:Name xml:lang="ja">暮らし・住まい</mpeg7:Name>
+        <mpeg7:Definition xml:lang="ja">エンターテイメント</mpeg7:Definition>
+      </mpeg7:Term>
+      <mpeg7:Term termID="2.3">
+        <mpeg7:Name xml:lang="ja">健康・医療</mpeg7:Name>
+        <mpeg7:Definition xml:lang="ja">エンターテイメント</mpeg7:Definition>
+      </mpeg7:Term>
+      <mpeg7:Term termID="2.4">
+        <mpeg7:Name xml:lang="ja">ショッピング・通販</mpeg7:Name>
+        <mpeg7:Definition xml:lang="ja">エンターテイメント</mpeg7:Definition>
+      </mpeg7:Term>
+      <mpeg7:Term termID="2.5">
+        <mpeg7:Name xml:lang="ja">グルメ・料理</mpeg7:Name>
+        <mpeg7:Definition xml:lang="ja">エンターテイメント</mpeg7:Definition>
+      </mpeg7:Term>
+      <mpeg7:Term termID="2.6">
+        <mpeg7:Name xml:lang="ja">イベント</mpeg7:Name>
+        <mpeg7:Definition xml:lang="ja">エンターテイメント</mpeg7:Definition>
+      </mpeg7:Term>
+      <mpeg7:Term termID="2.7">
+        <mpeg7:Name xml:lang="ja">番組紹介・お知らせ</mpeg7:Name>
+        <mpeg7:Definition xml:lang="ja">エンターテイメント</mpeg7:Definition>
+      </mpeg7:Term>
+      <mpeg7:Term termID="3">
+        <mpeg7:Name xml:lang="ja">ドラマ</mpeg7:Name>
+        <mpeg7:Definition xml:lang="ja">ドラマ</mpeg7:Definition>
+      </mpeg7:Term>
+      <mpeg7:Term termID="3.0">
+        <mpeg7:Name xml:lang="ja">国内ドラマ</mpeg7:Name>
+        <mpeg7:Definition xml:lang="ja">ドラマ</mpeg7:Definition>
+      </mpeg7:Term>
+      <mpeg7:Term termID="3.1">
+        <mpeg7:Name xml:lang="ja">海外ドラマ</mpeg7:Name>
+        <mpeg7:Definition xml:lang="ja">ドラマ</mpeg7:Definition>
+      </mpeg7:Term>
+      <mpeg7:Term termID="3.15">
+        <mpeg7:Name xml:lang="ja">その他</mpeg7:Name>
+        <mpeg7:Definition xml:lang="ja">ドラマ</mpeg7:Definition>
+      </mpeg7:Term>
+      <mpeg7:Term termID="3.2">
+        <mpeg7:Name xml:lang="ja">時代劇</mpeg7:Name>
+        <mpeg7:Definition xml:lang="ja">ドラマ</mpeg7:Definition>
+      </mpeg7:Term>
+      <mpeg7:Term termID="4">
+        <mpeg7:Name xml:lang="ja">音楽</mpeg7:Name>
+        <mpeg7:Definition xml:lang="ja">音楽</mpeg7:Definition>
+      </mpeg7:Term>
+      <mpeg7:Term termID="4.0">
+        <mpeg7:Name xml:lang="ja">国内ロック・ポップス</mpeg7:Name>
+        <mpeg7:Definition xml:lang="ja">音楽</mpeg7:Definition>
+      </mpeg7:Term>
+      <mpeg7:Term termID="4.1">
+        <mpeg7:Name xml:lang="ja">海外ロック・ポップス</mpeg7:Name>
+        <mpeg7:Definition xml:lang="ja">音楽</mpeg7:Definition>
+      </mpeg7:Term>
+      <mpeg7:Term termID="4.10">
+        <mpeg7:Name xml:lang="ja">民族音楽・ワールドミュージック</mpeg7:Name>
+        <mpeg7:Definition xml:lang="ja">音楽</mpeg7:Definition>
+      </mpeg7:Term>
+      <mpeg7:Term termID="4.15">
+        <mpeg7:Name xml:lang="ja">その他</mpeg7:Name>
+        <mpeg7:Definition xml:lang="ja">音楽</mpeg7:Definition>
+      </mpeg7:Term>
+      <mpeg7:Term termID="4.2">
+        <mpeg7:Name xml:lang="ja">クラシック・オペラ</mpeg7:Name>
+        <mpeg7:Definition xml:lang="ja">音楽</mpeg7:Definition>
+      </mpeg7:Term>
+      <mpeg7:Term termID="4.3">
+        <mpeg7:Name xml:lang="ja">ジャズ・フュージョン</mpeg7:Name>
+        <mpeg7:Definition xml:lang="ja">音楽</mpeg7:Definition>
+      </mpeg7:Term>
+      <mpeg7:Term termID="4.4">
+        <mpeg7:Name xml:lang="ja">歌謡曲・演歌</mpeg7:Name>
+        <mpeg7:Definition xml:lang="ja">音楽</mpeg7:Definition>
+      </mpeg7:Term>
+      <mpeg7:Term termID="4.5">
+        <mpeg7:Name xml:lang="ja">ライブ・コンサート</mpeg7:Name>
+        <mpeg7:Definition xml:lang="ja">音楽</mpeg7:Definition>
+      </mpeg7:Term>
+      <mpeg7:Term termID="4.6">
+        <mpeg7:Name xml:lang="ja">ランキング・リクエスト</mpeg7:Name>
+        <mpeg7:Definition xml:lang="ja">音楽</mpeg7:Definition>
+      </mpeg7:Term>
+      <mpeg7:Term termID="4.7">
+        <mpeg7:Name xml:lang="ja">カラオケ・のど自慢</mpeg7:Name>
+        <mpeg7:Definition xml:lang="ja">音楽</mpeg7:Definition>
+      </mpeg7:Term>
+      <mpeg7:Term termID="4.8">
+        <mpeg7:Name xml:lang="ja">民謡・邦楽</mpeg7:Name>
+        <mpeg7:Definition xml:lang="ja">音楽</mpeg7:Definition>
+      </mpeg7:Term>
+      <mpeg7:Term termID="4.9">
+        <mpeg7:Name xml:lang="ja">童謡・キッズ</mpeg7:Name>
+        <mpeg7:Definition xml:lang="ja">音楽</mpeg7:Definition>
+      </mpeg7:Term>
+      <mpeg7:Term termID="5">
+        <mpeg7:Name xml:lang="ja">バラエティ</mpeg7:Name>
+        <mpeg7:Definition xml:lang="ja">エンターテイメント</mpeg7:Definition>
+      </mpeg7:Term>
+      <mpeg7:Term termID="5.0">
+        <mpeg7:Name xml:lang="ja">クイズ</mpeg7:Name>
+        <mpeg7:Definition xml:lang="ja">エンターテイメント</mpeg7:Definition>
+      </mpeg7:Term>
+      <mpeg7:Term termID="5.1">
+        <mpeg7:Name xml:lang="ja">ゲーム</mpeg7:Name>
+        <mpeg7:Definition xml:lang="ja">エンターテイメント</mpeg7:Definition>
+      </mpeg7:Term>
+      <mpeg7:Term termID="5.15">
+        <mpeg7:Name xml:lang="ja">その他</mpeg7:Name>
+        <mpeg7:Definition xml:lang="ja">エンターテイメント</mpeg7:Definition>
+      </mpeg7:Term>
+      <mpeg7:Term termID="5.2">
+        <mpeg7:Name xml:lang="ja">トークバラエティ</mpeg7:Name>
+        <mpeg7:Definition xml:lang="ja">エンターテイメント</mpeg7:Definition>
+      </mpeg7:Term>
+      <mpeg7:Term termID="5.3">
+        <mpeg7:Name xml:lang="ja">お笑い・コメディ</mpeg7:Name>
+        <mpeg7:Definition xml:lang="ja">エンターテイメント</mpeg7:Definition>
+      </mpeg7:Term>
+      <mpeg7:Term termID="5.4">
+        <mpeg7:Name xml:lang="ja">音楽バラエティ</mpeg7:Name>
+        <mpeg7:Definition xml:lang="ja">エンターテイメント</mpeg7:Definition>
+      </mpeg7:Term>
+      <mpeg7:Term termID="5.5">
+        <mpeg7:Name xml:lang="ja">旅バラエティ</mpeg7:Name>
+        <mpeg7:Definition xml:lang="ja">エンターテイメント</mpeg7:Definition>
+      </mpeg7:Term>
+      <mpeg7:Term termID="5.6">
+        <mpeg7:Name xml:lang="ja">料理バラエティ</mpeg7:Name>
+        <mpeg7:Definition xml:lang="ja">エンターテイメント</mpeg7:Definition>
+      </mpeg7:Term>
+      <mpeg7:Term termID="6">
+        <mpeg7:Name xml:lang="ja">映画</mpeg7:Name>
+        <mpeg7:Definition xml:lang="ja">映画</mpeg7:Definition>
+      </mpeg7:Term>
+      <mpeg7:Term termID="6.0">
+        <mpeg7:Name xml:lang="ja">洋画</mpeg7:Name>
+        <mpeg7:Definition xml:lang="ja">映画</mpeg7:Definition>
+      </mpeg7:Term>
+      <mpeg7:Term termID="6.1">
+        <mpeg7:Name xml:lang="ja">邦画</mpeg7:Name>
+        <mpeg7:Definition xml:lang="ja">映画</mpeg7:Definition>
+      </mpeg7:Term>
+      <mpeg7:Term termID="6.15">
+        <mpeg7:Name xml:lang="ja">その他</mpeg7:Name>
+        <mpeg7:Definition xml:lang="ja">映画</mpeg7:Definition>
+      </mpeg7:Term>
+      <mpeg7:Term termID="6.2">
+        <mpeg7:Name xml:lang="ja">アニメ</mpeg7:Name>
+        <mpeg7:Definition xml:lang="ja">映画</mpeg7:Definition>
+      </mpeg7:Term>
+      <mpeg7:Term termID="7">
+        <mpeg7:Name xml:lang="ja">アニメ／特撮</mpeg7:Name>
+        <mpeg7:Definition xml:lang="ja">アニメ</mpeg7:Definition>
+      </mpeg7:Term>
+      <mpeg7:Term termID="7.0">
+        <mpeg7:Name xml:lang="ja">国内アニメ</mpeg7:Name>
+        <mpeg7:Definition xml:lang="ja">アニメ</mpeg7:Definition>
+      </mpeg7:Term>
+      <mpeg7:Term termID="7.1">
+        <mpeg7:Name xml:lang="ja">海外アニメ</mpeg7:Name>
+        <mpeg7:Definition xml:lang="ja">アニメ</mpeg7:Definition>
+      </mpeg7:Term>
+      <mpeg7:Term termID="7.15">
+        <mpeg7:Name xml:lang="ja">その他</mpeg7:Name>
+        <mpeg7:Definition xml:lang="ja">アニメ</mpeg7:Definition>
+      </mpeg7:Term>
+      <mpeg7:Term termID="7.2">
+        <mpeg7:Name xml:lang="ja">特撮</mpeg7:Name>
+        <mpeg7:Definition xml:lang="ja">アニメ</mpeg7:Definition>
+      </mpeg7:Term>
+      <mpeg7:Term termID="8">
+        <mpeg7:Name xml:lang="ja">ドキュメンタリー／教養</mpeg7:Name>
+        <mpeg7:Definition xml:lang="ja">ドキュメンタリー</mpeg7:Definition>
+      </mpeg7:Term>
+      <mpeg7:Term termID="8.0">
+        <mpeg7:Name xml:lang="ja">社会・時事</mpeg7:Name>
+        <mpeg7:Definition xml:lang="ja">ドキュメンタリー</mpeg7:Definition>
+      </mpeg7:Term>
+      <mpeg7:Term termID="8.1">
+        <mpeg7:Name xml:lang="ja">歴史・紀行</mpeg7:Name>
+        <mpeg7:Definition xml:lang="ja">ドキュメンタリー</mpeg7:Definition>
+      </mpeg7:Term>
+      <mpeg7:Term termID="8.15">
+        <mpeg7:Name xml:lang="ja">その他</mpeg7:Name>
+        <mpeg7:Definition xml:lang="ja">ドキュメンタリー</mpeg7:Definition>
+      </mpeg7:Term>
+      <mpeg7:Term termID="8.2">
+        <mpeg7:Name xml:lang="ja">自然・動物・環境</mpeg7:Name>
+        <mpeg7:Definition xml:lang="ja">ドキュメンタリー</mpeg7:Definition>
+      </mpeg7:Term>
+      <mpeg7:Term termID="8.3">
+        <mpeg7:Name xml:lang="ja">宇宙・科学・医学</mpeg7:Name>
+        <mpeg7:Definition xml:lang="ja">ドキュメンタリー</mpeg7:Definition>
+      </mpeg7:Term>
+      <mpeg7:Term termID="8.4">
+        <mpeg7:Name xml:lang="ja">カルチャー・伝統文学</mpeg7:Name>
+        <mpeg7:Definition xml:lang="ja">ドキュメンタリー</mpeg7:Definition>
+      </mpeg7:Term>
+      <mpeg7:Term termID="8.5">
+        <mpeg7:Name xml:lang="ja">文学・文芸</mpeg7:Name>
+        <mpeg7:Definition xml:lang="ja">ドキュメンタリー</mpeg7:Definition>
+      </mpeg7:Term>
+      <mpeg7:Term termID="8.6">
+        <mpeg7:Name xml:lang="ja">スポーツ</mpeg7:Name>
+        <mpeg7:Definition xml:lang="ja">ドキュメンタリー</mpeg7:Definition>
+      </mpeg7:Term>
+      <mpeg7:Term termID="8.7">
+        <mpeg7:Name xml:lang="ja">ドキュメンタリー全般</mpeg7:Name>
+        <mpeg7:Definition xml:lang="ja">ドキュメンタリー</mpeg7:Definition>
+      </mpeg7:Term>
+      <mpeg7:Term termID="8.8">
+        <mpeg7:Name xml:lang="ja">インタビュー・討論</mpeg7:Name>
+        <mpeg7:Definition xml:lang="ja">ドキュメンタリー</mpeg7:Definition>
+      </mpeg7:Term>
+      <mpeg7:Term termID="9">
+        <mpeg7:Name xml:lang="ja">劇場／公演</mpeg7:Name>
+        <mpeg7:Definition xml:lang="ja">レジャー</mpeg7:Definition>
+      </mpeg7:Term>
+      <mpeg7:Term termID="9.0">
+        <mpeg7:Name xml:lang="ja">現代劇・新劇</mpeg7:Name>
+        <mpeg7:Definition xml:lang="ja">レジャー</mpeg7:Definition>
+      </mpeg7:Term>
+      <mpeg7:Term termID="9.1">
+        <mpeg7:Name xml:lang="ja">ミュージカル</mpeg7:Name>
+        <mpeg7:Definition xml:lang="ja">レジャー</mpeg7:Definition>
+      </mpeg7:Term>
+      <mpeg7:Term termID="9.15">
+        <mpeg7:Name xml:lang="ja">その他</mpeg7:Name>
+        <mpeg7:Definition xml:lang="ja">レジャー</mpeg7:Definition>
+      </mpeg7:Term>
+      <mpeg7:Term termID="9.2">
+        <mpeg7:Name xml:lang="ja">ダンス・バレエ</mpeg7:Name>
+        <mpeg7:Definition xml:lang="ja">レジャー</mpeg7:Definition>
+      </mpeg7:Term>
+      <mpeg7:Term termID="9.3">
+        <mpeg7:Name xml:lang="ja">落語・演芸</mpeg7:Name>
+        <mpeg7:Definition xml:lang="ja">レジャー</mpeg7:Definition>
+      </mpeg7:Term>
+      <mpeg7:Term termID="9.4">
+        <mpeg7:Name xml:lang="ja">歌舞伎・古典</mpeg7:Name>
+        <mpeg7:Definition xml:lang="ja">レジャー</mpeg7:Definition>
+      </mpeg7:Term>
+      <mpeg7:Term termID="10">
+        <mpeg7:Name xml:lang="ja">趣味／教育</mpeg7:Name>
+        <mpeg7:Definition xml:lang="ja">レジャー</mpeg7:Definition>
+      </mpeg7:Term>
+      <mpeg7:Term termID="10.0">
+        <mpeg7:Name xml:lang="ja">旅・釣り・アウトドア</mpeg7:Name>
+        <mpeg7:Definition xml:lang="ja">レジャー</mpeg7:Definition>
+      </mpeg7:Term>
+      <mpeg7:Term termID="10.1">
+        <mpeg7:Name xml:lang="ja">園芸・ペット・手芸</mpeg7:Name>
+        <mpeg7:Definition xml:lang="ja">レジャー</mpeg7:Definition>
+      </mpeg7:Term>
+      <mpeg7:Term termID="10.10">
+        <mpeg7:Name xml:lang="ja">大学生・受験</mpeg7:Name>
+        <mpeg7:Definition xml:lang="ja">レジャー</mpeg7:Definition>
+      </mpeg7:Term>
+      <mpeg7:Term termID="10.11">
+        <mpeg7:Name xml:lang="ja">生涯教育・資格</mpeg7:Name>
+        <mpeg7:Definition xml:lang="ja">レジャー</mpeg7:Definition>
+      </mpeg7:Term>
+      <mpeg7:Term termID="10.12">
+        <mpeg7:Name xml:lang="ja">教育問題</mpeg7:Name>
+        <mpeg7:Definition xml:lang="ja">レジャー</mpeg7:Definition>
+      </mpeg7:Term>
+      <mpeg7:Term termID="10.15">
+        <mpeg7:Name xml:lang="ja">その他</mpeg7:Name>
+        <mpeg7:Definition xml:lang="ja">レジャー</mpeg7:Definition>
+      </mpeg7:Term>
+      <mpeg7:Term termID="10.2">
+        <mpeg7:Name xml:lang="ja">音楽・美術・工芸</mpeg7:Name>
+        <mpeg7:Definition xml:lang="ja">レジャー</mpeg7:Definition>
+      </mpeg7:Term>
+      <mpeg7:Term termID="10.3">
+        <mpeg7:Name xml:lang="ja">囲碁・将棋</mpeg7:Name>
+        <mpeg7:Definition xml:lang="ja">レジャー</mpeg7:Definition>
+      </mpeg7:Term>
+      <mpeg7:Term termID="10.4">
+        <mpeg7:Name xml:lang="ja">麻雀・パチンコ</mpeg7:Name>
+        <mpeg7:Definition xml:lang="ja">レジャー</mpeg7:Definition>
+      </mpeg7:Term>
+      <mpeg7:Term termID="10.5">
+        <mpeg7:Name xml:lang="ja">車・オートバイ</mpeg7:Name>
+        <mpeg7:Definition xml:lang="ja">レジャー</mpeg7:Definition>
+      </mpeg7:Term>
+      <mpeg7:Term termID="10.6">
+        <mpeg7:Name xml:lang="ja">コンピュータ・TV ゲーム</mpeg7:Name>
+        <mpeg7:Definition xml:lang="ja">レジャー</mpeg7:Definition>
+      </mpeg7:Term>
+      <mpeg7:Term termID="10.7">
+        <mpeg7:Name xml:lang="ja">会話・語学</mpeg7:Name>
+        <mpeg7:Definition xml:lang="ja">レジャー</mpeg7:Definition>
+      </mpeg7:Term>
+      <mpeg7:Term termID="10.8">
+        <mpeg7:Name xml:lang="ja">幼児・小学生</mpeg7:Name>
+        <mpeg7:Definition xml:lang="ja">レジャー</mpeg7:Definition>
+      </mpeg7:Term>
+      <mpeg7:Term termID="10.9">
+        <mpeg7:Name xml:lang="ja">中学生・高校生</mpeg7:Name>
+        <mpeg7:Definition xml:lang="ja">レジャー</mpeg7:Definition>
+      </mpeg7:Term>
+      <mpeg7:Term termID="11">
+        <mpeg7:Name xml:lang="ja">福祉</mpeg7:Name>
+        <mpeg7:Definition xml:lang="ja">公共・公営</mpeg7:Definition>
+      </mpeg7:Term>
+      <mpeg7:Term termID="11.0">
+        <mpeg7:Name xml:lang="ja">高齢者</mpeg7:Name>
+        <mpeg7:Definition xml:lang="ja">公共・公営</mpeg7:Definition>
+      </mpeg7:Term>
+      <mpeg7:Term termID="11.1">
+        <mpeg7:Name xml:lang="ja">障害者</mpeg7:Name>
+        <mpeg7:Definition xml:lang="ja">公共・公営</mpeg7:Definition>
+      </mpeg7:Term>
+      <mpeg7:Term termID="11.15">
+        <mpeg7:Name xml:lang="ja">その他</mpeg7:Name>
+        <mpeg7:Definition xml:lang="ja">公共・公営</mpeg7:Definition>
+      </mpeg7:Term>
+      <mpeg7:Term termID="11.2">
+        <mpeg7:Name xml:lang="ja">社会福祉</mpeg7:Name>
+        <mpeg7:Definition xml:lang="ja">公共・公営</mpeg7:Definition>
+      </mpeg7:Term>
+      <mpeg7:Term termID="11.3">
+        <mpeg7:Name xml:lang="ja">ボランティア</mpeg7:Name>
+        <mpeg7:Definition xml:lang="ja">公共・公営</mpeg7:Definition>
+      </mpeg7:Term>
+      <mpeg7:Term termID="11.4">
+        <mpeg7:Name xml:lang="ja">手話</mpeg7:Name>
+        <mpeg7:Definition xml:lang="ja">公共・公営</mpeg7:Definition>
+      </mpeg7:Term>
+      <mpeg7:Term termID="11.5">
+        <mpeg7:Name xml:lang="ja">文字（字幕）</mpeg7:Name>
+        <mpeg7:Definition xml:lang="ja">公共・公営</mpeg7:Definition>
+      </mpeg7:Term>
+      <mpeg7:Term termID="11.6">
+        <mpeg7:Name xml:lang="ja">音声解説</mpeg7:Name>
+        <mpeg7:Definition xml:lang="ja">公共・公営</mpeg7:Definition>
+      </mpeg7:Term>
+      <mpeg7:Term termID="14.1.0">
+        <mpeg7:Name xml:lang="ja">スポーツ</mpeg7:Name>
+        <mpeg7:Definition xml:lang="ja">スポーツ</mpeg7:Definition>
+      </mpeg7:Term>
+      <mpeg7:Term termID="14.1.0.0">
+        <mpeg7:Name xml:lang="ja">テニス</mpeg7:Name>
+        <mpeg7:Definition xml:lang="ja">スポーツ</mpeg7:Definition>
+      </mpeg7:Term>
+      <mpeg7:Term termID="14.1.0.1">
+        <mpeg7:Name xml:lang="ja">バスケットボール</mpeg7:Name>
+        <mpeg7:Definition xml:lang="ja">スポーツ</mpeg7:Definition>
+      </mpeg7:Term>
+      <mpeg7:Term termID="14.1.0.2">
+        <mpeg7:Name xml:lang="ja">ラグビー</mpeg7:Name>
+        <mpeg7:Definition xml:lang="ja">スポーツ</mpeg7:Definition>
+      </mpeg7:Term>
+      <mpeg7:Term termID="14.1.0.3">
+        <mpeg7:Name xml:lang="ja">アメリカンフットボール</mpeg7:Name>
+        <mpeg7:Definition xml:lang="ja">スポーツ</mpeg7:Definition>
+      </mpeg7:Term>
+      <mpeg7:Term termID="14.1.0.4">
+        <mpeg7:Name xml:lang="ja">ボクシング</mpeg7:Name>
+        <mpeg7:Definition xml:lang="ja">スポーツ</mpeg7:Definition>
+      </mpeg7:Term>
+      <mpeg7:Term termID="14.1.0.5">
+        <mpeg7:Name xml:lang="ja">プロレス</mpeg7:Name>
+        <mpeg7:Definition xml:lang="ja">スポーツ</mpeg7:Definition>
+      </mpeg7:Term>
+      <mpeg7:Term termID="14.1.0.15">
+        <mpeg7:Name xml:lang="ja">その他</mpeg7:Name>
+        <mpeg7:Definition xml:lang="ja">スポーツ</mpeg7:Definition>
+      </mpeg7:Term>
+      <mpeg7:Term termID="14.1.1">
+        <mpeg7:Name xml:lang="ja">洋画</mpeg7:Name>
+        <mpeg7:Definition xml:lang="ja">映画</mpeg7:Definition>
+      </mpeg7:Term>
+      <mpeg7:Term termID="14.1.1.0">
+        <mpeg7:Name xml:lang="ja">アクション</mpeg7:Name>
+        <mpeg7:Definition xml:lang="ja">映画</mpeg7:Definition>
+      </mpeg7:Term>
+      <mpeg7:Term termID="14.1.1.1">
+        <mpeg7:Name xml:lang="ja">SF／ファンタジー</mpeg7:Name>
+        <mpeg7:Definition xml:lang="ja">映画</mpeg7:Definition>
+      </mpeg7:Term>
+      <mpeg7:Term termID="14.1.1.10">
+        <mpeg7:Name xml:lang="ja">アドベンチャー／冒険</mpeg7:Name>
+        <mpeg7:Definition xml:lang="ja">映画</mpeg7:Definition>
+      </mpeg7:Term>
+      <mpeg7:Term termID="14.1.1.11">
+        <mpeg7:Name xml:lang="ja">ミュージカル／音楽映画</mpeg7:Name>
+        <mpeg7:Definition xml:lang="ja">映画</mpeg7:Definition>
+      </mpeg7:Term>
+      <mpeg7:Term termID="14.1.1.12">
+        <mpeg7:Name xml:lang="ja">ホームドラマ</mpeg7:Name>
+        <mpeg7:Definition xml:lang="ja">映画</mpeg7:Definition>
+      </mpeg7:Term>
+      <mpeg7:Term termID="14.1.1.15">
+        <mpeg7:Name xml:lang="ja">その他</mpeg7:Name>
+        <mpeg7:Definition xml:lang="ja">映画</mpeg7:Definition>
+      </mpeg7:Term>
+      <mpeg7:Term termID="14.1.1.2">
+        <mpeg7:Name xml:lang="ja">コメディー</mpeg7:Name>
+        <mpeg7:Definition xml:lang="ja">映画</mpeg7:Definition>
+      </mpeg7:Term>
+      <mpeg7:Term termID="14.1.1.3">
+        <mpeg7:Name xml:lang="ja">サスペンス／ミステリー</mpeg7:Name>
+        <mpeg7:Definition xml:lang="ja">映画</mpeg7:Definition>
+      </mpeg7:Term>
+      <mpeg7:Term termID="14.1.1.4">
+        <mpeg7:Name xml:lang="ja">恋愛／ロマンス</mpeg7:Name>
+        <mpeg7:Definition xml:lang="ja">映画</mpeg7:Definition>
+      </mpeg7:Term>
+      <mpeg7:Term termID="14.1.1.5">
+        <mpeg7:Name xml:lang="ja">ホラー／スリラー</mpeg7:Name>
+        <mpeg7:Definition xml:lang="ja">映画</mpeg7:Definition>
+      </mpeg7:Term>
+      <mpeg7:Term termID="14.1.1.6">
+        <mpeg7:Name xml:lang="ja">ウエスタン</mpeg7:Name>
+        <mpeg7:Definition xml:lang="ja">映画</mpeg7:Definition>
+      </mpeg7:Term>
+      <mpeg7:Term termID="14.1.1.7">
+        <mpeg7:Name xml:lang="ja">ドラマ／社会派ドラマ</mpeg7:Name>
+        <mpeg7:Definition xml:lang="ja">映画</mpeg7:Definition>
+      </mpeg7:Term>
+      <mpeg7:Term termID="14.1.1.8">
+        <mpeg7:Name xml:lang="ja">アニメーション</mpeg7:Name>
+        <mpeg7:Definition xml:lang="ja">映画</mpeg7:Definition>
+      </mpeg7:Term>
+      <mpeg7:Term termID="14.1.1.9">
+        <mpeg7:Name xml:lang="ja">ドキュメンタリー</mpeg7:Name>
+        <mpeg7:Definition xml:lang="ja">映画</mpeg7:Definition>
+      </mpeg7:Term>
+      <mpeg7:Term termID="14.1.2">
+        <mpeg7:Name xml:lang="ja">邦画</mpeg7:Name>
+        <mpeg7:Definition xml:lang="ja">映画</mpeg7:Definition>
+      </mpeg7:Term>
+      <mpeg7:Term termID="14.1.2.0">
+        <mpeg7:Name xml:lang="ja">アクション</mpeg7:Name>
+        <mpeg7:Definition xml:lang="ja">映画</mpeg7:Definition>
+      </mpeg7:Term>
+      <mpeg7:Term termID="14.1.2.1">
+        <mpeg7:Name xml:lang="ja">SF／ファンタジー</mpeg7:Name>
+        <mpeg7:Definition xml:lang="ja">映画</mpeg7:Definition>
+      </mpeg7:Term>
+      <mpeg7:Term termID="14.1.2.10">
+        <mpeg7:Name xml:lang="ja">アドベンチャー／冒険</mpeg7:Name>
+        <mpeg7:Definition xml:lang="ja">映画</mpeg7:Definition>
+      </mpeg7:Term>
+      <mpeg7:Term termID="14.1.2.11">
+        <mpeg7:Name xml:lang="ja">ミュージカル／音楽映画</mpeg7:Name>
+        <mpeg7:Definition xml:lang="ja">映画</mpeg7:Definition>
+      </mpeg7:Term>
+      <mpeg7:Term termID="14.1.2.12">
+        <mpeg7:Name xml:lang="ja">ホームドラマ</mpeg7:Name>
+        <mpeg7:Definition xml:lang="ja">映画</mpeg7:Definition>
+      </mpeg7:Term>
+      <mpeg7:Term termID="14.1.2.15">
+        <mpeg7:Name xml:lang="ja">その他</mpeg7:Name>
+        <mpeg7:Definition xml:lang="ja">映画</mpeg7:Definition>
+      </mpeg7:Term>
+      <mpeg7:Term termID="14.1.2.2">
+        <mpeg7:Name xml:lang="ja">お笑い／コメディー</mpeg7:Name>
+        <mpeg7:Definition xml:lang="ja">映画</mpeg7:Definition>
+      </mpeg7:Term>
+      <mpeg7:Term termID="14.1.2.3">
+        <mpeg7:Name xml:lang="ja">サスペンス／ミステリー</mpeg7:Name>
+        <mpeg7:Definition xml:lang="ja">映画</mpeg7:Definition>
+      </mpeg7:Term>
+      <mpeg7:Term termID="14.1.2.4">
+        <mpeg7:Name xml:lang="ja">恋愛／ロマンス</mpeg7:Name>
+        <mpeg7:Definition xml:lang="ja">映画</mpeg7:Definition>
+      </mpeg7:Term>
+      <mpeg7:Term termID="14.1.2.5">
+        <mpeg7:Name xml:lang="ja">ホラー／スリラー</mpeg7:Name>
+        <mpeg7:Definition xml:lang="ja">映画</mpeg7:Definition>
+      </mpeg7:Term>
+      <mpeg7:Term termID="14.1.2.6">
+        <mpeg7:Name xml:lang="ja">青春／学園／アイドル</mpeg7:Name>
+        <mpeg7:Definition xml:lang="ja">映画</mpeg7:Definition>
+      </mpeg7:Term>
+      <mpeg7:Term termID="14.1.2.7">
+        <mpeg7:Name xml:lang="ja">任侠／時代劇</mpeg7:Name>
+        <mpeg7:Definition xml:lang="ja">映画</mpeg7:Definition>
+      </mpeg7:Term>
+      <mpeg7:Term termID="14.1.2.8">
+        <mpeg7:Name xml:lang="ja">アニメーション</mpeg7:Name>
+        <mpeg7:Definition xml:lang="ja">映画</mpeg7:Definition>
+      </mpeg7:Term>
+      <mpeg7:Term termID="14.1.2.9">
+        <mpeg7:Name xml:lang="ja">ドキュメンタリー</mpeg7:Name>
+        <mpeg7:Definition xml:lang="ja">映画</mpeg7:Definition>
+      </mpeg7:Term>
+      <mpeg7:Term termID="14.6.11">
+        <mpeg7:Name xml:lang="ja">海外放送</mpeg7:Name>
+        <mpeg7:Definition xml:lang="ja">外国語</mpeg7:Definition>
+      </mpeg7:Term>
+      <mpeg7:Term termID="14.6.11.0">
+        <mpeg7:Name xml:lang="ja">アジア</mpeg7:Name>
+        <mpeg7:Definition xml:lang="ja">外国語</mpeg7:Definition>
+      </mpeg7:Term>
+      <mpeg7:Term termID="14.6.11.1">
+        <mpeg7:Name xml:lang="ja">オセアニア</mpeg7:Name>
+        <mpeg7:Definition xml:lang="ja">外国語</mpeg7:Definition>
+      </mpeg7:Term>
+      <mpeg7:Term termID="14.6.11.15">
+        <mpeg7:Name xml:lang="ja">その他</mpeg7:Name>
+        <mpeg7:Definition xml:lang="ja">外国語</mpeg7:Definition>
+      </mpeg7:Term>
+      <mpeg7:Term termID="14.6.11.2">
+        <mpeg7:Name xml:lang="ja">ヨーロッパ</mpeg7:Name>
+        <mpeg7:Definition xml:lang="ja">外国語</mpeg7:Definition>
+      </mpeg7:Term>
+      <mpeg7:Term termID="14.6.11.3">
+        <mpeg7:Name xml:lang="ja">北米</mpeg7:Name>
+        <mpeg7:Definition xml:lang="ja">外国語</mpeg7:Definition>
+      </mpeg7:Term>
+      <mpeg7:Term termID="14.6.11.4">
+        <mpeg7:Name xml:lang="ja">中南米</mpeg7:Name>
+        <mpeg7:Definition xml:lang="ja">外国語</mpeg7:Definition>
+      </mpeg7:Term>
+      <mpeg7:Term termID="14.6.11.5">
+        <mpeg7:Name xml:lang="ja">アフリカ</mpeg7:Name>
+        <mpeg7:Definition xml:lang="ja">外国語</mpeg7:Definition>
+      </mpeg7:Term>
+      <mpeg7:Term termID="14.6.12">
+        <mpeg7:Name xml:lang="ja">成人向け</mpeg7:Name>
+        <mpeg7:Definition xml:lang="ja">成人向け</mpeg7:Definition>
+      </mpeg7:Term>
+      <mpeg7:Term termID="14.6.12.0">
+        <mpeg7:Name xml:lang="ja">洋画</mpeg7:Name>
+        <mpeg7:Definition xml:lang="ja">成人向け</mpeg7:Definition>
+      </mpeg7:Term>
+      <mpeg7:Term termID="14.6.12.1">
+        <mpeg7:Name xml:lang="ja">邦画</mpeg7:Name>
+        <mpeg7:Definition xml:lang="ja">成人向け</mpeg7:Definition>
+      </mpeg7:Term>
+      <mpeg7:Term termID="14.6.12.2">
+        <mpeg7:Name xml:lang="ja">ビデオ（国内）</mpeg7:Name>
+        <mpeg7:Definition xml:lang="ja">成人向け</mpeg7:Definition>
+      </mpeg7:Term>
+      <mpeg7:Term termID="14.6.12.3">
+        <mpeg7:Name xml:lang="ja">ビデオ（海外）</mpeg7:Name>
+        <mpeg7:Definition xml:lang="ja">成人向け</mpeg7:Definition>
+      </mpeg7:Term>
+      <mpeg7:Term termID="14.6.12.4">
+        <mpeg7:Name xml:lang="ja">アニメ</mpeg7:Name>
+        <mpeg7:Definition xml:lang="ja">成人向け</mpeg7:Definition>
+      </mpeg7:Term>
+      <mpeg7:Term termID="14.6.12.5">
+        <mpeg7:Name xml:lang="ja">ショー／ステージ</mpeg7:Name>
+        <mpeg7:Definition xml:lang="ja">成人向け</mpeg7:Definition>
+      </mpeg7:Term>
+      <mpeg7:Term termID="14.6.12.6">
+        <mpeg7:Name xml:lang="ja">成人向けバラエティ</mpeg7:Name>
+        <mpeg7:Definition xml:lang="ja">成人向け</mpeg7:Definition>
+      </mpeg7:Term>
+      <mpeg7:Term termID="14.6.12.15">
+        <mpeg7:Name xml:lang="ja">その他（成人向け）</mpeg7:Name>
+        <mpeg7:Definition xml:lang="ja">成人向け</mpeg7:Definition>
+      </mpeg7:Term>
+      <mpeg7:Term termID="14.6.13">
+        <mpeg7:Name xml:lang="ja">デジタルラジオ</mpeg7:Name>
+        <mpeg7:Definition xml:lang="ja">音楽</mpeg7:Definition>
+      </mpeg7:Term>
+      <mpeg7:Term termID="14.6.13.0">
+        <mpeg7:Name xml:lang="ja">日本のポップス</mpeg7:Name>
+        <mpeg7:Definition xml:lang="ja">音楽</mpeg7:Definition>
+      </mpeg7:Term>
+      <mpeg7:Term termID="14.6.13.1">
+        <mpeg7:Name xml:lang="ja">演歌</mpeg7:Name>
+        <mpeg7:Definition xml:lang="ja">音楽</mpeg7:Definition>
+      </mpeg7:Term>
+      <mpeg7:Term termID="14.6.13.15">
+        <mpeg7:Name xml:lang="ja">その他</mpeg7:Name>
+        <mpeg7:Definition xml:lang="ja">音楽</mpeg7:Definition>
+      </mpeg7:Term>
+      <mpeg7:Term termID="14.6.13.2">
+        <mpeg7:Name xml:lang="ja">洋楽</mpeg7:Name>
+        <mpeg7:Definition xml:lang="ja">音楽</mpeg7:Definition>
+      </mpeg7:Term>
+      <mpeg7:Term termID="14.6.13.3">
+        <mpeg7:Name xml:lang="ja">クラシック</mpeg7:Name>
+        <mpeg7:Definition xml:lang="ja">音楽</mpeg7:Definition>
+      </mpeg7:Term>
+      <mpeg7:Term termID="14.6.13.4">
+        <mpeg7:Name xml:lang="ja">ジャズ</mpeg7:Name>
+        <mpeg7:Definition xml:lang="ja">音楽</mpeg7:Definition>
+      </mpeg7:Term>
+      <mpeg7:Term termID="14.6.13.5">
+        <mpeg7:Name xml:lang="ja">ニューリリース</mpeg7:Name>
+        <mpeg7:Definition xml:lang="ja">音楽</mpeg7:Definition>
+      </mpeg7:Term>
+      <mpeg7:Term termID="14.6.13.6">
+        <mpeg7:Name xml:lang="ja">ＢＧＭ</mpeg7:Name>
+        <mpeg7:Definition xml:lang="ja">音楽</mpeg7:Definition>
+      </mpeg7:Term>
+      <mpeg7:Term termID="14.6.13.7">
+        <mpeg7:Name xml:lang="ja">インフォメーション</mpeg7:Name>
+        <mpeg7:Definition xml:lang="ja">音楽</mpeg7:Definition>
+      </mpeg7:Term>
+      <mpeg7:Term termID="14.6.13.8">
+        <mpeg7:Name xml:lang="ja">スペシャル</mpeg7:Name>
+        <mpeg7:Definition xml:lang="ja">音楽</mpeg7:Definition>
+      </mpeg7:Term>
+      <mpeg7:Term termID="14.6.14">
+        <mpeg7:Name xml:lang="ja">その他</mpeg7:Name>
+        <mpeg7:Definition xml:lang="ja">その他</mpeg7:Definition>
+      </mpeg7:Term>
+      <mpeg7:Term termID="14.6.14.0">
+        <mpeg7:Name xml:lang="ja">イベント</mpeg7:Name>
+        <mpeg7:Definition xml:lang="ja">その他</mpeg7:Definition>
+      </mpeg7:Term>
+      <mpeg7:Term termID="14.6.14.1">
+        <mpeg7:Name xml:lang="ja">ショッピング</mpeg7:Name>
+        <mpeg7:Definition xml:lang="ja">その他</mpeg7:Definition>
+      </mpeg7:Term>
+      <mpeg7:Term termID="14.6.14.15">
+        <mpeg7:Name xml:lang="ja">その他</mpeg7:Name>
+        <mpeg7:Definition xml:lang="ja">その他</mpeg7:Definition>
+      </mpeg7:Term>
+    </ClassificationScheme>
+  </ClassificationSchemeTable>
+</TVAMain>
