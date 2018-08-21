@@ -41,11 +41,11 @@ PRODUCT_COPY_FILES += \
     vendor/samsung/js01lte/proprietary/vendor/etc/acdbdata/Hdmi_cal.acdb:system/vendor/etc/acdbdata/Hdmi_cal.acdb \
     vendor/samsung/js01lte/proprietary/vendor/etc/acdbdata/Headset_cal.acdb:system/vendor/etc/acdbdata/Headset_cal.acdb \
     vendor/samsung/js01lte/proprietary/vendor/etc/acdbdata/Speaker_cal.acdb:system/vendor/etc/acdbdata/Speaker_cal.acdb \
-    vendor/samsung/js01lte/proprietary/vendor/etc/felica/common.cfg:system/vendor/etc/felica/common.cfg \
-    vendor/samsung/js01lte/proprietary/vendor/etc/felica/mfc_falp.cfg:system/vendor/etc/felica/mfc_falp.cfg \
-    vendor/samsung/js01lte/proprietary/vendor/etc/felica/mfc_push.cfg:system/vendor/etc/felica/mfc_push.cfg \
-    vendor/samsung/js01lte/proprietary/vendor/etc/felica/mfm.cfg:system/vendor/etc/felica/mfm.cfg \
-    vendor/samsung/js01lte/proprietary/vendor/etc/felica/mfs.cfg:system/vendor/etc/felica/mfs.cfg \
+    vendor/samsung/js01lte/proprietary/vendor/etc/felica/common.cfg:system/etc/felica/common.cfg \
+    vendor/samsung/js01lte/proprietary/vendor/etc/felica/mfc_falp.cfg:system/etc/felica/mfc_falp.cfg \
+    vendor/samsung/js01lte/proprietary/vendor/etc/felica/mfc_push.cfg:system/etc/felica/mfc_push.cfg \
+    vendor/samsung/js01lte/proprietary/vendor/etc/felica/mfm.cfg:system/etc/felica/mfm.cfg \
+    vendor/samsung/js01lte/proprietary/vendor/etc/felica/mfs.cfg:system/etc/felica/mfs.cfg \
     vendor/samsung/js01lte/proprietary/vendor/firmware/cpp_firmware_v1_1_1.fw:system/vendor/firmware/cpp_firmware_v1_1_1.fw \
     vendor/samsung/js01lte/proprietary/vendor/firmware/cpp_firmware_v1_1_6.fw:system/vendor/firmware/cpp_firmware_v1_1_6.fw \
     vendor/samsung/js01lte/proprietary/vendor/firmware/cpp_firmware_v1_2_0.fw:system/vendor/firmware/cpp_firmware_v1_2_0.fw \
@@ -369,6 +369,36 @@ PRODUCT_COPY_FILES += \
     vendor/samsung/js01lte/proprietary/vendor/lib/soundfx/libqcbassboost.so:system/vendor/lib/soundfx/libqcbassboost.so \
     vendor/samsung/js01lte/proprietary/vendor/lib/soundfx/libqcreverb.so:system/vendor/lib/soundfx/libqcreverb.so \
     vendor/samsung/js01lte/proprietary/vendor/lib/soundfx/libqcvirt.so:system/vendor/lib/soundfx/libqcvirt.so
+
+## FeliCa
+PRODUCT_COPY_FILES += \
+    vendor/samsung/js01lte/proprietary/felica/etc/osaifu/osaifu.cfg:system/etc/osaifu/osaifu.cfg
+
+## snfc
+PRODUCT_COPY_FILES += \
+    vendor/samsung/js01lte/proprietary/snfc/etc/snfc/auto_polling.cfg:system/etc/snfc/auto_polling.cfg \
+    vendor/samsung/js01lte/proprietary/snfc/etc/snfc/rf.cfg:system/etc/snfc/rf.cfg
+
+PRODUCT_PACKAGES += \
+    libnfc_sony_jni \
+    libnfc_sony \
+    libnfc_sony_ndef
+
+PRODUCT_PACKAGES += \
+    MobileFeliCaClient \
+    MobileFeliCaMenuApp \
+    MobileFeliCaSettingApp \
+    MobileFeliCaWebPluginBoot \
+    FeliCaLock \
+    libcordon \
+    mfsc \
+    mfdp
+
+PRODUCT_PACKAGES += \
+    SmartcardService \
+    org.simalliance.openmobileapi \
+    org.simalliance.openmobileapi.xml
+PRODUCT_BOOT_JARS += org.simalliance.openmobileapi
 
 PRODUCT_PACKAGES += \
     libmm-abl \
