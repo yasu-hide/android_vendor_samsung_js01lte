@@ -1,0 +1,275 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- version:20130201001 -->
+<TVAMain xml:lang="ja" xmlns="http://www.arib.or.jp/metadata/tva/2011/03" xmlns:mpeg7="urn:mpeg:mpeg7:schema:2001" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <ClassificationSchemeTable>
+    <!-- 2013/2/1変更 from -->
+    <ClassificationScheme uri="http://www.arib.or.jp/cs/2013/06/ARIBCopyControlMethodCS" fragmentId="0000000015" fragmentVersion="20130201000000">
+    <!-- 2013/2/1変更 to -->
+      <mpeg7:Term termID="macrovision">
+        <mpeg7:Name xml:lang="ja">マクロビジョン</mpeg7:Name>
+        <mpeg7:Name xml:lang="en">macrovision</mpeg7:Name>
+        <mpeg7:Definition xml:lang="ja">コピー禁止（アナログ映像出力）</mpeg7:Definition>
+      </mpeg7:Term>
+      <mpeg7:Term termID="CGMS-A">
+        <!-- 2013/2/1変更 from -->
+        <mpeg7:Name xml:lang="ja"></mpeg7:Name>
+        <mpeg7:Name xml:lang="en"></mpeg7:Name>
+        <!-- 2013/2/1変更 to -->
+        <mpeg7:Definition xml:lang="ja">アナログ映像出力フォーマット毎のコピー制御</mpeg7:Definition>
+      </mpeg7:Term>
+      <mpeg7:Term termID="CGMS-A:CopyNever">
+        <!-- 2013/2/1変更 from -->
+        <mpeg7:Name xml:lang="ja"></mpeg7:Name>
+        <mpeg7:Name xml:lang="en"></mpeg7:Name>
+        <!-- 2013/2/1変更 to -->
+        <mpeg7:Definition xml:lang="ja">コピー禁止</mpeg7:Definition>
+      </mpeg7:Term>
+      <mpeg7:Term termID="CGMS-A:CopyOnce">
+        <!-- 2013/2/1変更 from -->
+        <mpeg7:Name xml:lang="ja"></mpeg7:Name>
+        <mpeg7:Name xml:lang="en"></mpeg7:Name>
+        <!-- 2013/2/1変更 to -->
+        <mpeg7:Definition xml:lang="ja">1 回だけコピー可</mpeg7:Definition>
+      </mpeg7:Term>
+      <mpeg7:Term termID="CGMS-A:CopyFree">
+        <!-- 2013/2/1変更 from -->
+        <mpeg7:Name xml:lang="ja"></mpeg7:Name>
+        <mpeg7:Name xml:lang="en"></mpeg7:Name>
+        <!-- 2013/2/1変更 to -->
+        <mpeg7:Definition xml:lang="ja">制約条件なしにコピー可</mpeg7:Definition>
+      </mpeg7:Term>
+      <mpeg7:Term termID="DTCP">
+        <!-- 2013/2/1変更 from -->
+        <mpeg7:Name xml:lang="ja"></mpeg7:Name>
+        <mpeg7:Name xml:lang="en"></mpeg7:Name>
+        <!-- 2013/2/1変更 to -->
+        <mpeg7:Definition xml:lang="ja">デジタル映像出力（シリアルインタフェース）のコピー制御</mpeg7:Definition>
+      </mpeg7:Term>
+      <mpeg7:Term termID="DTCP:CopyNever">
+        <!-- 2013/2/1変更 from -->
+        <mpeg7:Name xml:lang="ja"></mpeg7:Name>
+        <mpeg7:Name xml:lang="en"></mpeg7:Name>
+        <!-- 2013/2/1変更 to -->
+        <mpeg7:Definition xml:lang="ja">コピー禁止</mpeg7:Definition>
+      </mpeg7:Term>
+      <mpeg7:Term termID="DTCP:CopyOnce">
+        <!-- 2013/2/1変更 from -->
+        <mpeg7:Name xml:lang="ja"></mpeg7:Name>
+        <mpeg7:Name xml:lang="en"></mpeg7:Name>
+        <!-- 2013/2/1変更 to -->
+        <mpeg7:Definition xml:lang="ja">1 回だけコピー可</mpeg7:Definition>
+      </mpeg7:Term>
+      <mpeg7:Term termID="DTCP:CopyNoMore">
+        <!-- 2013/2/1変更 from -->
+        <mpeg7:Name xml:lang="ja"></mpeg7:Name>
+        <mpeg7:Name xml:lang="en"></mpeg7:Name>
+        <!-- 2013/2/1変更 to -->
+        <!-- 2013/2/1修正取り消し from -->
+        <mpeg7:Definition xml:lang="ja"></mpeg7:Definition>
+        <!-- 2013/2/1修正取り消し to -->
+      </mpeg7:Term>
+      <mpeg7:Term termID="DTCP:CopyFree">
+        <!-- 2013/2/1変更 from -->
+        <mpeg7:Name xml:lang="ja"></mpeg7:Name>
+        <mpeg7:Name xml:lang="en"></mpeg7:Name>
+        <!-- 2013/2/1変更 to -->
+        <mpeg7:Definition xml:lang="ja">制約条件なしにコピー可</mpeg7:Definition>
+      </mpeg7:Term>
+      <mpeg7:Term termID="DTCP:CopyNever_MPEGOutputNG">
+        <!-- 2013/2/1変更 from -->
+        <mpeg7:Name xml:lang="ja"></mpeg7:Name>
+        <mpeg7:Name xml:lang="en"></mpeg7:Name>
+        <!-- 2013/2/1変更 to -->
+        <mpeg7:Definition xml:lang="ja">コピー禁止、但しMPEG_TS での出力禁止</mpeg7:Definition>
+      </mpeg7:Term>
+      <mpeg7:Term termID="DTCP:Dubbing10">
+        <!-- 2013/2/1変更 from -->
+        <mpeg7:Name xml:lang="ja"></mpeg7:Name>
+        <mpeg7:Name xml:lang="en"></mpeg7:Name>
+        <!-- 2013/2/1変更 to -->
+        <mpeg7:Definition xml:lang="ja">個数制限コピー可</mpeg7:Definition>
+      </mpeg7:Term>
+      <mpeg7:Term termID="DTCP-IP">
+        <!-- 2013/2/1変更 from -->
+        <mpeg7:Name xml:lang="ja"></mpeg7:Name>
+        <mpeg7:Name xml:lang="en"></mpeg7:Name>
+        <!-- 2013/2/1変更 to -->
+        <mpeg7:Definition xml:lang="ja">デジタル映像出力（IP インタフェース）のコピー制御</mpeg7:Definition>
+      </mpeg7:Term>
+      <mpeg7:Term termID="DTCP-IP:CopyNever">
+        <!-- 2013/2/1変更 from -->
+        <mpeg7:Name xml:lang="ja"></mpeg7:Name>
+        <mpeg7:Name xml:lang="en"></mpeg7:Name>
+        <!-- 2013/2/1変更 to -->
+        <mpeg7:Definition xml:lang="ja">コピー禁止</mpeg7:Definition>
+      </mpeg7:Term>
+      <mpeg7:Term termID="DTCP-IP:CopyOnce">
+        <!-- 2013/2/1変更 from -->
+        <mpeg7:Name xml:lang="ja"></mpeg7:Name>
+        <mpeg7:Name xml:lang="en"></mpeg7:Name>
+        <!-- 2013/2/1変更 to -->
+        <mpeg7:Definition xml:lang="ja">1 回だけコピー可</mpeg7:Definition>
+      </mpeg7:Term>
+      <mpeg7:Term termID="DTCP-IP:CopyNoMore">
+        <!-- 2013/2/1変更 from -->
+        <mpeg7:Name xml:lang="ja"></mpeg7:Name>
+        <mpeg7:Name xml:lang="en"></mpeg7:Name>
+        <!-- 2013/2/1変更 to -->
+        <!-- 2013/2/1修正取り消し from -->
+        <mpeg7:Definition xml:lang="ja"></mpeg7:Definition>
+        <!-- 2013/2/1修正取り消し to -->
+      </mpeg7:Term>
+      <mpeg7:Term termID="DTCP-IP:CopyFree">
+        <!-- 2013/2/1変更 from -->
+        <mpeg7:Name xml:lang="ja"></mpeg7:Name>
+        <mpeg7:Name xml:lang="en"></mpeg7:Name>
+        <!-- 2013/2/1変更 to -->
+        <mpeg7:Definition xml:lang="ja">制約条件なしにコピー可</mpeg7:Definition>
+      </mpeg7:Term>
+      <mpeg7:Term termID="DTCP-IP:CopyFreewithEPN">
+        <!-- 2013/2/1変更 from -->
+        <mpeg7:Name xml:lang="ja"></mpeg7:Name>
+        <mpeg7:Name xml:lang="en"></mpeg7:Name>
+        <!-- 2013/2/1変更 to -->
+        <mpeg7:Definition xml:lang="ja">出力保護付きでコピー制限無し</mpeg7:Definition>
+      </mpeg7:Term>
+      <mpeg7:Term termID="DTCP-IP:Dubbing10">
+        <!-- 2013/2/1変更 from -->
+        <mpeg7:Name xml:lang="ja"></mpeg7:Name>
+        <mpeg7:Name xml:lang="en"></mpeg7:Name>
+        <!-- 2013/2/1変更 to -->
+        <mpeg7:Definition xml:lang="ja">個数制限コピー可</mpeg7:Definition>
+      </mpeg7:Term>
+      <mpeg7:Term termID="SCMS">
+        <!-- 2013/2/1変更 from -->
+        <mpeg7:Name xml:lang="ja"></mpeg7:Name>
+        <mpeg7:Name xml:lang="en"></mpeg7:Name>
+        <!-- 2013/2/1変更 to -->
+        <mpeg7:Definition xml:lang="ja">デジタル音声出力のコピー制御</mpeg7:Definition>
+      </mpeg7:Term>
+      <mpeg7:Term termID="SCMS:CopyNever">
+        <!-- 2013/2/1変更 from -->
+        <mpeg7:Name xml:lang="ja"></mpeg7:Name>
+        <mpeg7:Name xml:lang="en"></mpeg7:Name>
+        <!-- 2013/2/1変更 to -->
+        <mpeg7:Definition xml:lang="ja">コピー禁止</mpeg7:Definition>
+      </mpeg7:Term>
+      <mpeg7:Term termID="SCMS:CopyOnce">
+        <!-- 2013/2/1変更 from -->
+        <mpeg7:Name xml:lang="ja"></mpeg7:Name>
+        <mpeg7:Name xml:lang="en"></mpeg7:Name>
+        <!-- 2013/2/1変更 to -->
+        <mpeg7:Definition xml:lang="ja">1 回だけコピー可</mpeg7:Definition>
+      </mpeg7:Term>
+      <mpeg7:Term termID="SCMS:CopyNoMore">
+        <!-- 2013/2/1変更 from -->
+        <mpeg7:Name xml:lang="ja"></mpeg7:Name>
+        <mpeg7:Name xml:lang="en"></mpeg7:Name>
+        <!-- 2013/2/1変更 to -->
+        <!-- 2013/2/1修正取り消し from -->
+        <mpeg7:Definition xml:lang="ja"></mpeg7:Definition>
+        <!-- 2013/2/1修正取り消し to -->
+      </mpeg7:Term>
+      <mpeg7:Term termID="SCMS:CopyFree">
+        <!-- 2013/2/1変更 from -->
+        <mpeg7:Name xml:lang="ja"></mpeg7:Name>
+        <mpeg7:Name xml:lang="en"></mpeg7:Name>
+        <!-- 2013/2/1変更 to -->
+        <mpeg7:Definition xml:lang="ja">制約条件なしにコピー可</mpeg7:Definition>
+      </mpeg7:Term>
+      <mpeg7:Term termID="SCMS:CopyNever_MPEGOutputNG">
+        <!-- 2013/2/1変更 from -->
+        <mpeg7:Name xml:lang="ja"></mpeg7:Name>
+        <mpeg7:Name xml:lang="en"></mpeg7:Name>
+        <!-- 2013/2/1変更 to -->
+        <mpeg7:Definition xml:lang="ja">コピー禁止、但しMPEG_TS での出力禁止</mpeg7:Definition>
+      </mpeg7:Term>
+      <mpeg7:Term termID="HDCP">
+        <!-- 2013/2/1変更 from -->
+        <mpeg7:Name xml:lang="ja"></mpeg7:Name>
+        <mpeg7:Name xml:lang="en"></mpeg7:Name>
+        <!-- 2013/2/1変更 to -->
+        <mpeg7:Definition xml:lang="ja">デジタル映像出力、デジタル音声出力のコピー制御</mpeg7:Definition>
+      </mpeg7:Term>
+      <mpeg7:Term termID="HDCP:CopyNever">
+        <!-- 2013/2/1変更 from -->
+        <mpeg7:Name xml:lang="ja"></mpeg7:Name>
+        <mpeg7:Name xml:lang="en"></mpeg7:Name>
+        <!-- 2013/2/1変更 to -->
+        <mpeg7:Definition xml:lang="ja">コピー禁止</mpeg7:Definition>
+      </mpeg7:Term>
+      <mpeg7:Term termID="HDCP:CopyOnce">
+        <!-- 2013/2/1変更 from -->
+        <mpeg7:Name xml:lang="ja"></mpeg7:Name>
+        <mpeg7:Name xml:lang="en"></mpeg7:Name>
+        <!-- 2013/2/1変更 to -->
+        <mpeg7:Definition xml:lang="ja">1 世代のみコピー（録画）可</mpeg7:Definition>
+      </mpeg7:Term>
+      <mpeg7:Term termID="HDCP:CopyNoMore">
+        <!-- 2013/2/1変更 from -->
+        <mpeg7:Name xml:lang="ja"></mpeg7:Name>
+        <mpeg7:Name xml:lang="en"></mpeg7:Name>
+        <!-- 2013/2/1変更 to -->
+        <mpeg7:Definition xml:lang="ja">1 世代コピー（録画）後にコピー禁止</mpeg7:Definition>
+      </mpeg7:Term>
+      <mpeg7:Term termID="HDCP:CopyFree">
+        <!-- 2013/2/1変更 from -->
+        <mpeg7:Name xml:lang="ja"></mpeg7:Name>
+        <mpeg7:Name xml:lang="en"></mpeg7:Name>
+        <!-- 2013/2/1変更 to -->
+        <mpeg7:Definition xml:lang="ja">制約条件なしにコピー可</mpeg7:Definition>
+      </mpeg7:Term>
+      <mpeg7:Term termID="HDCP:CopyFreewithEPN">
+        <!-- 2013/2/1変更 from -->
+        <mpeg7:Name xml:lang="ja"></mpeg7:Name>
+        <mpeg7:Name xml:lang="en"></mpeg7:Name>
+        <!-- 2013/2/1変更 to -->
+        <mpeg7:Definition xml:lang="ja">出力保護付きでコピー制限無し</mpeg7:Definition>
+      </mpeg7:Term>
+      <mpeg7:Term termID="HDCP:Dubbing10">
+        <!-- 2013/2/1変更 from -->
+        <mpeg7:Name xml:lang="ja"></mpeg7:Name>
+        <mpeg7:Name xml:lang="en"></mpeg7:Name>
+        <!-- 2013/2/1変更 to -->
+        <mpeg7:Definition xml:lang="ja">個数制限コピー可</mpeg7:Definition>
+      </mpeg7:Term>
+      <!-- 20121226追加 from -->
+      <mpeg7:Term termID="NVMEM">
+        <!-- 2013/2/1変更 from -->
+        <mpeg7:Name xml:lang="ja"></mpeg7:Name>
+        <mpeg7:Name xml:lang="en"></mpeg7:Name>
+        <!-- 2013/2/1変更 to -->
+        <mpeg7:Definition xml:lang="ja">不揮発性メモリへの出力時のコピー（録画）制御</mpeg7:Definition>
+      </mpeg7:Term>
+      <mpeg7:Term termID="NVMEM:CopyNever">
+        <!-- 2013/2/1変更 from -->
+        <mpeg7:Name xml:lang="ja"></mpeg7:Name>
+        <mpeg7:Name xml:lang="en"></mpeg7:Name>
+        <!-- 2013/2/1変更 to -->
+        <mpeg7:Definition xml:lang="ja">コピー禁止</mpeg7:Definition>
+      </mpeg7:Term>
+      <mpeg7:Term termID="NVMEM:CopyOnce">
+        <!-- 2013/2/1変更 from -->
+        <mpeg7:Name xml:lang="ja"></mpeg7:Name>
+        <mpeg7:Name xml:lang="en"></mpeg7:Name>
+        <!-- 2013/2/1変更 to -->
+        <mpeg7:Definition xml:lang="ja">1 世代のみコピー可</mpeg7:Definition>
+      </mpeg7:Term>
+      <mpeg7:Term termID="NVMEM:CopyFree">
+        <!-- 2013/2/1変更 from -->
+        <mpeg7:Name xml:lang="ja"></mpeg7:Name>
+        <mpeg7:Name xml:lang="en"></mpeg7:Name>
+        <!-- 2013/2/1変更 to -->
+        <mpeg7:Definition xml:lang="ja">制約条件なしにコピー可</mpeg7:Definition>
+      </mpeg7:Term>
+      <mpeg7:Term termID="NVMEM:Dubbing10">
+        <!-- 2013/2/1変更 from -->
+        <mpeg7:Name xml:lang="ja"></mpeg7:Name>
+        <mpeg7:Name xml:lang="en"></mpeg7:Name>
+        <!-- 2013/2/1変更 to -->
+        <mpeg7:Definition xml:lang="ja">個数制限コピー可</mpeg7:Definition>
+      </mpeg7:Term>
+      <!-- 20121226追加 to -->
+    </ClassificationScheme>
+  </ClassificationSchemeTable>
+</TVAMain>

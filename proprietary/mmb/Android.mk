@@ -1,0 +1,390 @@
+# Copyright (C) 2016 The CyanogenMod Project
+# Copyright (C) 2017-2018 The LineageOS Project
+#
+# Licensed under the Apache License, Version 2.0 (the "License");
+# you may not use this file except in compliance with the License.
+# You may obtain a copy of the License at
+#
+# http://www.apache.org/licenses/LICENSE-2.0
+#
+# Unless required by applicable law or agreed to in writing, software
+# distributed under the License is distributed on an "AS IS" BASIS,
+# WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+# See the License for the specific language governing permissions and
+# limitations under the License.
+
+include $(CLEAR_VARS)
+LOCAL_MODULE := MmbCaCasDrmMw
+LOCAL_MODULE_OWNER := samsung
+LOCAL_SRC_FILES := proprietary/mmb/bin/MmbCaCasDrmMw
+LOCAL_MODULE_TAGS := optional
+LOCAL_MODULE_CLASS := EXECUTABLES
+LOCAL_VENDOR_MODULE := true
+include $(BUILD_PREBUILT)
+
+include $(CLEAR_VARS)
+LOCAL_MODULE := MmbFcCtlMw
+LOCAL_MODULE_OWNER := samsung
+LOCAL_SRC_FILES := proprietary/mmb/bin/MmbFcCtlMw
+LOCAL_MODULE_TAGS := optional
+LOCAL_MODULE_CLASS := EXECUTABLES
+LOCAL_VENDOR_MODULE := true
+include $(BUILD_PREBUILT)
+
+include $(CLEAR_VARS)
+LOCAL_MODULE := MmbFcLiceMwServer
+LOCAL_MODULE_OWNER := samsung
+LOCAL_SRC_FILES := proprietary/mmb/bin/MmbFcLiceMwServer
+LOCAL_MODULE_TAGS := optional
+LOCAL_MODULE_CLASS := EXECUTABLES
+LOCAL_VENDOR_MODULE := true
+include $(BUILD_PREBUILT)
+
+include $(CLEAR_VARS)
+LOCAL_MODULE := MmbFcMp4MwServer
+LOCAL_MODULE_OWNER := samsung
+LOCAL_SRC_FILES := proprietary/mmb/bin/MmbFcMp4MwServer
+LOCAL_MODULE_TAGS := optional
+LOCAL_MODULE_CLASS := EXECUTABLES
+LOCAL_VENDOR_MODULE := true
+include $(BUILD_PREBUILT)
+
+include $(CLEAR_VARS)
+LOCAL_MODULE := MmbStCtlMwService
+LOCAL_MODULE_OWNER := samsung
+LOCAL_SRC_FILES := proprietary/mmb/bin/MmbStCtlMwService
+LOCAL_MODULE_TAGS := optional
+LOCAL_MODULE_CLASS := EXECUTABLES
+LOCAL_VENDOR_MODULE := true
+include $(BUILD_PREBUILT)
+
+include $(CLEAR_VARS)
+LOCAL_MODULE := MmbStRecCmMwService
+LOCAL_MODULE_OWNER := samsung
+LOCAL_SRC_FILES := proprietary/mmb/bin/MmbStRecCmMwService
+LOCAL_MODULE_TAGS := optional
+LOCAL_MODULE_CLASS := EXECUTABLES
+LOCAL_VENDOR_MODULE := true
+include $(BUILD_PREBUILT)
+
+include $(CLEAR_VARS)
+LOCAL_MODULE := libmmbfcmp4mw_jni
+LOCAL_MODULE_OWNER := samsung
+LOCAL_SRC_FILES := proprietary/mmb/lib/libmmbfcmp4mw_jni.so
+LOCAL_MULTILIB := 32
+LOCAL_MODULE_TAGS := optional
+LOCAL_MODULE_CLASS := SHARED_LIBRARIES
+LOCAL_MODULE_SUFFIX := .so
+LOCAL_VENDOR_MODULE := true
+include $(BUILD_PREBUILT)
+
+include $(CLEAR_VARS)
+LOCAL_MODULE := libMmbStBmlMwService_jni
+LOCAL_MODULE_OWNER := samsung
+LOCAL_SRC_FILES := proprietary/mmb/lib/libMmbStBmlMwService_jni.so
+LOCAL_MULTILIB := 32
+LOCAL_MODULE_TAGS := optional
+LOCAL_MODULE_CLASS := SHARED_LIBRARIES
+LOCAL_MODULE_SUFFIX := .so
+LOCAL_VENDOR_MODULE := true
+include $(BUILD_PREBUILT)
+
+include $(CLEAR_VARS)
+LOCAL_MODULE := libMmbStCtlMwService_jni
+LOCAL_MODULE_OWNER := samsung
+LOCAL_SRC_FILES := proprietary/mmb/lib/libMmbStCtlMwService_jni.so
+LOCAL_MULTILIB := 32
+LOCAL_MODULE_TAGS := optional
+LOCAL_MODULE_CLASS := SHARED_LIBRARIES
+LOCAL_MODULE_SUFFIX := .so
+LOCAL_VENDOR_MODULE := true
+include $(BUILD_PREBUILT)
+
+include $(CLEAR_VARS)
+LOCAL_MODULE := libMmbStRecMwService_jni
+LOCAL_MODULE_OWNER := samsung
+LOCAL_SRC_FILES := proprietary/mmb/lib/libMmbStRecMwService_jni.so
+LOCAL_MULTILIB := 32
+LOCAL_MODULE_TAGS := optional
+LOCAL_MODULE_CLASS := SHARED_LIBRARIES
+LOCAL_MODULE_SUFFIX := .so
+LOCAL_VENDOR_MODULE := true
+include $(BUILD_PREBUILT)
+
+include $(CLEAR_VARS)
+LOCAL_MODULE := libMmbPoSecClkMp
+LOCAL_MODULE_OWNER := samsung
+LOCAL_SRC_FILES := proprietary/mmb/lib/libMmbPoSecClkMp.so
+LOCAL_MULTILIB := 32
+LOCAL_MODULE_TAGS := optional
+LOCAL_MODULE_CLASS := SHARED_LIBRARIES
+LOCAL_MODULE_SUFFIX := .so
+LOCAL_VENDOR_MODULE := true
+include $(BUILD_PREBUILT)
+
+include $(CLEAR_VARS)
+LOCAL_MODULE := libMmbFcIndivdMw
+LOCAL_MODULE_OWNER := samsung
+LOCAL_SRC_FILES := proprietary/mmb/lib/libMmbFcIndivdMw.so
+LOCAL_MULTILIB := 32
+LOCAL_MODULE_TAGS := optional
+LOCAL_MODULE_CLASS := SHARED_LIBRARIES
+LOCAL_MODULE_SUFFIX := .so
+LOCAL_VENDOR_MODULE := true
+include $(BUILD_PREBUILT)
+
+include $(CLEAR_VARS)
+LOCAL_MODULE := libMmbPoInfoMp
+LOCAL_MODULE_OWNER := samsung
+LOCAL_SRC_FILES := proprietary/mmb/lib/libMmbPoInfoMp.so
+LOCAL_MULTILIB := 32
+LOCAL_MODULE_TAGS := optional
+LOCAL_MODULE_CLASS := SHARED_LIBRARIES
+LOCAL_MODULE_SUFFIX := .so
+LOCAL_VENDOR_MODULE := true
+include $(BUILD_PREBUILT)
+
+include $(CLEAR_VARS)
+LOCAL_MODULE := libMmbSeMngMw
+LOCAL_MODULE_OWNER := samsung
+LOCAL_SRC_FILES := proprietary/mmb/lib/libMmbSeMngMw.so
+LOCAL_MULTILIB := 32
+LOCAL_MODULE_TAGS := optional
+LOCAL_MODULE_CLASS := SHARED_LIBRARIES
+LOCAL_MODULE_SUFFIX := .so
+LOCAL_VENDOR_MODULE := true
+include $(BUILD_PREBUILT)
+
+include $(CLEAR_VARS)
+LOCAL_MODULE := libMmbFcMfestMw
+LOCAL_MODULE_OWNER := samsung
+LOCAL_SRC_FILES := proprietary/mmb/lib/libMmbFcMfestMw.so
+LOCAL_MULTILIB := 32
+LOCAL_MODULE_TAGS := optional
+LOCAL_MODULE_CLASS := SHARED_LIBRARIES
+LOCAL_MODULE_SUFFIX := .so
+LOCAL_VENDOR_MODULE := true
+include $(BUILD_PREBUILT)
+
+include $(CLEAR_VARS)
+LOCAL_MODULE := libMmbFcBrowMw
+LOCAL_MODULE_OWNER := samsung
+LOCAL_SRC_FILES := proprietary/mmb/lib/libMmbFcBrowMw.so
+LOCAL_MULTILIB := 32
+LOCAL_MODULE_TAGS := optional
+LOCAL_MODULE_CLASS := SHARED_LIBRARIES
+LOCAL_MODULE_SUFFIX := .so
+LOCAL_VENDOR_MODULE := true
+include $(BUILD_PREBUILT)
+
+include $(CLEAR_VARS)
+LOCAL_MODULE := MmbServiceProcess
+LOCAL_MODULE_OWNER := samsung
+LOCAL_SRC_FILES := proprietary/mmb/app/MmbServiceProcess.apk
+LOCAL_CERTIFICATE := platform
+LOCAL_MODULE_TAGS := optional
+LOCAL_MODULE_CLASS := APPS
+LOCAL_MODULE_SUFFIX := $(COMMON_ANDROID_PACKAGE_SUFFIX)
+LOCAL_JNI_SHARED_LIBRARIES := libMmbStBmlMwService_jni libMmbStCtlMwService_jni libMmbStRecMwService_jni
+LOCAL_VENDOR_MODULE := true
+include $(BUILD_PREBUILT)
+
+include $(CLEAR_VARS)
+LOCAL_MODULE := MmbSetting
+LOCAL_MODULE_OWNER := samsung
+LOCAL_SRC_FILES := proprietary/mmb/framework/MmbSetting/MmbSetting.apk
+LOCAL_CERTIFICATE := platform
+LOCAL_MODULE_TAGS := optional
+LOCAL_MODULE_CLASS := JAVA_LIBRARIES
+LOCAL_DEX_PREOPT := false
+LOCAL_MODULE_SUFFIX := $(COMMON_ANDROID_PACKAGE_SUFFIX)
+LOCAL_MODULE_PATH := $(TARGET_OUT_JAVA_LIBRARIES)/MmbSetting
+include $(BUILD_PREBUILT)
+
+include $(CLEAR_VARS)
+LOCAL_MODULE := MmbFcBrowMw-res
+LOCAL_MODULE_OWNER := samsung
+LOCAL_SRC_FILES := proprietary/mmb/framework/MmbFcBrowMw-res/MmbFcBrowMw-res.apk
+LOCAL_CERTIFICATE := platform
+LOCAL_MODULE_TAGS := optional
+LOCAL_MODULE_CLASS := JAVA_LIBRARIES
+LOCAL_DEX_PREOPT := false
+LOCAL_MODULE_SUFFIX := $(COMMON_ANDROID_PACKAGE_SUFFIX)
+LOCAL_MODULE_PATH := $(TARGET_OUT_JAVA_LIBRARIES)/MmbFcBrowMw-res
+include $(BUILD_PREBUILT)
+
+include $(CLEAR_VARS)
+LOCAL_MODULE := MmbFcBrowMw
+LOCAL_MODULE_OWNER := samsung
+LOCAL_SRC_FILES := proprietary/mmb/framework/MmbFcBrowMw.jar
+LOCAL_CERTIFICATE := platform
+LOCAL_MODULE_TAGS := optional
+LOCAL_MODULE_CLASS := JAVA_LIBRARIES
+LOCAL_MODULE_SUFFIX := $(COMMON_JAVA_PACKAGE_SUFFIX)
+LOCAL_JNI_SHARED_LIBRARIES := libMmbFcBrowMw
+LOCAL_VENDOR_MODULE := false
+include $(BUILD_PREBUILT)
+
+include $(CLEAR_VARS)
+LOCAL_MODULE := MmbFcContMw
+LOCAL_MODULE_OWNER := samsung
+LOCAL_SRC_FILES := proprietary/mmb/framework/MmbFcContMw.jar
+LOCAL_CERTIFICATE := platform
+LOCAL_MODULE_TAGS := optional
+LOCAL_MODULE_CLASS := JAVA_LIBRARIES
+LOCAL_MODULE_SUFFIX := $(COMMON_JAVA_PACKAGE_SUFFIX)
+LOCAL_VENDOR_MODULE := false
+include $(BUILD_PREBUILT)
+
+include $(CLEAR_VARS)
+LOCAL_MODULE := MmbFcIndivdMw
+LOCAL_MODULE_OWNER := samsung
+LOCAL_SRC_FILES := proprietary/mmb/framework/MmbFcIndivdMw.jar
+LOCAL_CERTIFICATE := platform
+LOCAL_MODULE_TAGS := optional
+LOCAL_MODULE_CLASS := JAVA_LIBRARIES
+LOCAL_MODULE_SUFFIX := $(COMMON_JAVA_PACKAGE_SUFFIX)
+LOCAL_JNI_SHARED_LIBRARIES := libMmbFcIndivdMw
+LOCAL_VENDOR_MODULE := false
+include $(BUILD_PREBUILT)
+
+include $(CLEAR_VARS)
+LOCAL_MODULE := MmbFcMfestMw
+LOCAL_MODULE_OWNER := samsung
+LOCAL_SRC_FILES := proprietary/mmb/framework/MmbFcMfestMw.jar
+LOCAL_CERTIFICATE := platform
+LOCAL_MODULE_TAGS := optional
+LOCAL_MODULE_CLASS := JAVA_LIBRARIES
+LOCAL_MODULE_SUFFIX := $(COMMON_JAVA_PACKAGE_SUFFIX)
+LOCAL_JNI_SHARED_LIBRARIES := libMmbFcMfestMw
+LOCAL_VENDOR_MODULE := false
+include $(BUILD_PREBUILT)
+
+include $(CLEAR_VARS)
+LOCAL_MODULE := MmbFcMp4Mw
+LOCAL_MODULE_OWNER := samsung
+LOCAL_SRC_FILES := proprietary/mmb/framework/MmbFcMp4Mw.jar
+LOCAL_CERTIFICATE := platform
+LOCAL_MODULE_TAGS := optional
+LOCAL_MODULE_CLASS := JAVA_LIBRARIES
+LOCAL_MODULE_SUFFIX := $(COMMON_JAVA_PACKAGE_SUFFIX)
+LOCAL_JNI_SHARED_LIBRARIES := libmmbfcmp4mw_jni
+LOCAL_VENDOR_MODULE := false
+include $(BUILD_PREBUILT)
+
+include $(CLEAR_VARS)
+LOCAL_MODULE := MmbFcPgInfoMw
+LOCAL_MODULE_OWNER := samsung
+LOCAL_SRC_FILES := proprietary/mmb/framework/MmbFcPgInfoMw.jar
+LOCAL_CERTIFICATE := platform
+LOCAL_MODULE_TAGS := optional
+LOCAL_MODULE_CLASS := JAVA_LIBRARIES
+LOCAL_MODULE_SUFFIX := $(COMMON_JAVA_PACKAGE_SUFFIX)
+LOCAL_VENDOR_MODULE := false
+include $(BUILD_PREBUILT)
+
+include $(CLEAR_VARS)
+LOCAL_MODULE := MmbMoInfoMw
+LOCAL_MODULE_OWNER := samsung
+LOCAL_SRC_FILES := proprietary/mmb/framework/MmbMoInfoMw.jar
+LOCAL_CERTIFICATE := platform
+LOCAL_MODULE_TAGS := optional
+LOCAL_MODULE_CLASS := JAVA_LIBRARIES
+LOCAL_MODULE_SUFFIX := $(COMMON_JAVA_PACKAGE_SUFFIX)
+LOCAL_JNI_SHARED_LIBRARIES := libMmbPoInfoMp
+LOCAL_VENDOR_MODULE := false
+include $(BUILD_PREBUILT)
+
+include $(CLEAR_VARS)
+LOCAL_MODULE := MmbPoServiceSp
+LOCAL_MODULE_OWNER := samsung
+LOCAL_SRC_FILES := proprietary/mmb/framework/MmbPoServiceSp.jar
+LOCAL_CERTIFICATE := platform
+LOCAL_MODULE_TAGS := optional
+LOCAL_MODULE_CLASS := JAVA_LIBRARIES
+LOCAL_MODULE_SUFFIX := $(COMMON_JAVA_PACKAGE_SUFFIX)
+LOCAL_JNI_SHARED_LIBRARIES := libMmbPoInfoMp
+LOCAL_VENDOR_MODULE := false
+include $(BUILD_PREBUILT)
+
+include $(CLEAR_VARS)
+LOCAL_MODULE := MmbScSecClkMw
+LOCAL_MODULE_OWNER := samsung
+LOCAL_SRC_FILES := proprietary/mmb/framework/MmbScSecClkMw.jar
+LOCAL_CERTIFICATE := platform
+LOCAL_MODULE_TAGS := optional
+LOCAL_MODULE_CLASS := JAVA_LIBRARIES
+LOCAL_MODULE_SUFFIX := $(COMMON_JAVA_PACKAGE_SUFFIX)
+LOCAL_JNI_SHARED_LIBRARIES := libMmbPoSecClkMp
+LOCAL_VENDOR_MODULE := false
+include $(BUILD_PREBUILT)
+
+include $(CLEAR_VARS)
+LOCAL_MODULE := MmbSeMngMw
+LOCAL_MODULE_OWNER := samsung
+LOCAL_SRC_FILES := proprietary/mmb/framework/MmbSeMngMw.jar
+LOCAL_CERTIFICATE := platform
+LOCAL_MODULE_TAGS := optional
+LOCAL_MODULE_CLASS := JAVA_LIBRARIES
+LOCAL_MODULE_SUFFIX := $(COMMON_JAVA_PACKAGE_SUFFIX)
+LOCAL_JNI_SHARED_LIBRARIES := libMmbSeMngMw
+LOCAL_VENDOR_MODULE := false
+include $(BUILD_PREBUILT)
+
+include $(CLEAR_VARS)
+LOCAL_MODULE := MmbServiceLibrary
+LOCAL_MODULE_OWNER := samsung
+LOCAL_SRC_FILES := proprietary/mmb/framework/MmbServiceLibrary.jar
+LOCAL_CERTIFICATE := platform
+LOCAL_MODULE_TAGS := optional
+LOCAL_MODULE_CLASS := JAVA_LIBRARIES
+LOCAL_MODULE_SUFFIX := $(COMMON_JAVA_PACKAGE_SUFFIX)
+LOCAL_VENDOR_MODULE := false
+include $(BUILD_PREBUILT)
+
+include $(CLEAR_VARS)
+LOCAL_MODULE := MmbStBmlMw
+LOCAL_MODULE_OWNER := samsung
+LOCAL_SRC_FILES := proprietary/mmb/framework/MmbStBmlMw.jar
+LOCAL_CERTIFICATE := platform
+LOCAL_MODULE_TAGS := optional
+LOCAL_MODULE_CLASS := JAVA_LIBRARIES
+LOCAL_MODULE_SUFFIX := $(COMMON_JAVA_PACKAGE_SUFFIX)
+LOCAL_JNI_SHARED_LIBRARIES := libMmbStBmlMwService_jni libMmbStBmlMwService_jni
+LOCAL_VENDOR_MODULE := false
+include $(BUILD_PREBUILT)
+
+include $(CLEAR_VARS)
+LOCAL_MODULE := MmbStCtlMw
+LOCAL_MODULE_OWNER := samsung
+LOCAL_SRC_FILES := proprietary/mmb/framework/MmbStCtlMw.jar
+LOCAL_CERTIFICATE := platform
+LOCAL_MODULE_TAGS := optional
+LOCAL_MODULE_CLASS := JAVA_LIBRARIES
+LOCAL_MODULE_SUFFIX := $(COMMON_JAVA_PACKAGE_SUFFIX)
+LOCAL_JNI_SHARED_LIBRARIES := libMmbStCtlMwService_jni
+LOCAL_VENDOR_MODULE := false
+include $(BUILD_PREBUILT)
+
+include $(CLEAR_VARS)
+LOCAL_MODULE := MmbStRecCmMw
+LOCAL_MODULE_OWNER := samsung
+LOCAL_SRC_FILES := proprietary/mmb/framework/MmbStRecCmMw.jar
+LOCAL_CERTIFICATE := platform
+LOCAL_MODULE_TAGS := optional
+LOCAL_MODULE_CLASS := JAVA_LIBRARIES
+LOCAL_MODULE_SUFFIX := $(COMMON_JAVA_PACKAGE_SUFFIX)
+LOCAL_VENDOR_MODULE := false
+include $(BUILD_PREBUILT)
+
+include $(CLEAR_VARS)
+LOCAL_MODULE := MmbStRecMw
+LOCAL_MODULE_OWNER := samsung
+LOCAL_SRC_FILES := proprietary/mmb/framework/MmbStRecMw.jar
+LOCAL_CERTIFICATE := platform
+LOCAL_MODULE_TAGS := optional
+LOCAL_MODULE_CLASS := JAVA_LIBRARIES
+LOCAL_MODULE_SUFFIX := $(COMMON_JAVA_PACKAGE_SUFFIX)
+LOCAL_JNI_SHARED_LIBRARIES := libMmbStRecMwService_jni
+LOCAL_VENDOR_MODULE := false
+include $(BUILD_PREBUILT)

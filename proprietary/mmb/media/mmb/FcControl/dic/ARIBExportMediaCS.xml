@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- version:20110826001 -->
+<TVAMain xml:lang="ja" xmlns="http://www.arib.or.jp/metadata/tva/2011/03" xmlns:mpeg7="urn:mpeg:mpeg7:schema:2001" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <ClassificationSchemeTable>
+    <ClassificationScheme uri="http://www.arib.or.jp/cs/2010/04/ARIBExportMediaCS" fragmentId="0000000016" fragmentVersion="20100401000000">
+      <mpeg7:Term termID="00">
+        <mpeg7:Name xml:lang="en">Export to DTCP</mpeg7:Name>
+      </mpeg7:Term>
+      <mpeg7:Term termID="01">
+        <mpeg7:Name xml:lang="en">Export to CPRM for DVD</mpeg7:Name>
+      </mpeg7:Term>
+      <mpeg7:Term termID="02">
+        <mpeg7:Name xml:lang="en">Export to CPRM for SD Video</mpeg7:Name>
+      </mpeg7:Term>
+      <mpeg7:Term termID="04">
+        <mpeg7:Name xml:lang="en">Export to MG-R (SVR) for Memory Stick PRO</mpeg7:Name>
+      </mpeg7:Term>
+      <mpeg7:Term termID="06">
+        <mpeg7:Name xml:lang="en">Export to VCPS</mpeg7:Name>
+      </mpeg7:Term>
+      <mpeg7:Term termID="07">
+        <mpeg7:Name xml:lang="en">Export to MG-R (SVR) for EMPR</mpeg7:Name>
+      </mpeg7:Term>
+      <mpeg7:Term termID="09">
+        <mpeg7:Name xml:lang="en">Export to SAFIA for iVDR TV Recording</mpeg7:Name>
+      </mpeg7:Term>
+      <mpeg7:Term termID="0B">
+        <mpeg7:Name xml:lang="en">Export to AACS Blu-ray Disc Recordable for BD-R/RE</mpeg7:Name>
+      </mpeg7:Term>
+      <mpeg7:Term termID="0C">
+        <mpeg7:Name xml:lang="en">Export to AACS Blu-ray Disc Recordable for Red Laser Media</mpeg7:Name>
+      </mpeg7:Term>
+    </ClassificationScheme>
+  </ClassificationSchemeTable>
+</TVAMain>

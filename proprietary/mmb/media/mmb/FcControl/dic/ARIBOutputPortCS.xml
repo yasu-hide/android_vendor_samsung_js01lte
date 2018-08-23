@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- version:20130201001 -->
+<TVAMain xml:lang="ja" xmlns="http://www.arib.or.jp/metadata/tva/2011/03" xmlns:mpeg7="urn:mpeg:mpeg7:schema:2001" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <ClassificationSchemeTable>
+    <!-- 20130201変更 from -->
+    <ClassificationScheme uri="http://www.arib.or.jp/cs/2013/06/ARIBOutputPortCS" fragmentId="0000000014" fragmentVersion="20130601000000">
+    <!-- 20130201変更 to -->
+      <mpeg7:Term termID="composite">
+        <mpeg7:Name xml:lang="ja">コンポジット出力</mpeg7:Name>
+        <mpeg7:Name xml:lang="en">Composite Port</mpeg7:Name>
+      </mpeg7:Term>
+      <mpeg7:Term termID="component">
+        <mpeg7:Name xml:lang="ja">コンポーネント出力</mpeg7:Name>
+        <mpeg7:Name xml:lang="en">Component Port</mpeg7:Name>
+      </mpeg7:Term>
+      <mpeg7:Term termID="d_terminal">
+        <mpeg7:Name xml:lang="ja">D 端子</mpeg7:Name>
+        <mpeg7:Name xml:lang="en">D terminal</mpeg7:Name>
+      </mpeg7:Term>
+      <mpeg7:Term termID="s_terminal">
+        <mpeg7:Name xml:lang="ja">S 端子</mpeg7:Name>
+        <mpeg7:Name xml:lang="en">S terminal</mpeg7:Name>
+      </mpeg7:Term>
+      <mpeg7:Term termID="digital_serial">
+        <mpeg7:Name xml:lang="ja">デジタル出力（シリアルインタフェース）</mpeg7:Name>
+        <mpeg7:Name xml:lang="en">Digital Serial Interface</mpeg7:Name>
+      </mpeg7:Term>
+      <mpeg7:Term termID="digital_ip">
+        <mpeg7:Name xml:lang="ja">デジタル出力（IP インタフェース）</mpeg7:Name>
+        <mpeg7:Name xml:lang="en">Digital IP Interface</mpeg7:Name>
+      </mpeg7:Term>
+      <mpeg7:Term termID="IEEE1394">
+        <mpeg7:Name xml:lang="ja">IEEE1394</mpeg7:Name>
+        <mpeg7:Name xml:lang="en">IEEE1394</mpeg7:Name>
+      </mpeg7:Term>
+      <mpeg7:Term termID="dvi-d">
+        <mpeg7:Name xml:lang="ja">DVI-D</mpeg7:Name>
+        <mpeg7:Name xml:lang="en">Digital Visual Interface Digital</mpeg7:Name>
+      </mpeg7:Term>
+      <mpeg7:Term termID="dvi-i">
+        <mpeg7:Name xml:lang="ja">DVI-I</mpeg7:Name>
+        <mpeg7:Name xml:lang="en">Digital Visual Interface Integrated</mpeg7:Name>
+      </mpeg7:Term>
+      <mpeg7:Term termID="dv">
+        <mpeg7:Name xml:lang="ja">DV</mpeg7:Name>
+        <mpeg7:Name xml:lang="en">Digital Video</mpeg7:Name>
+      </mpeg7:Term>
+      <mpeg7:Term termID="hdmi">
+        <mpeg7:Name xml:lang="ja">HDMI</mpeg7:Name>
+        <mpeg7:Name xml:lang="en">High-Definition Multimedia Interface</mpeg7:Name>
+      </mpeg7:Term>
+      <mpeg7:Term termID="s_pdif">
+        <mpeg7:Name xml:lang="ja">光デジタル音声端子</mpeg7:Name>
+        <mpeg7:Name xml:lang="en">Sony Philips Digital Interface</mpeg7:Name>
+      </mpeg7:Term>
+      <mpeg7:Term termID="bluetooth">
+        <mpeg7:Name xml:lang="ja">BLUETOOTH</mpeg7:Name>
+        <mpeg7:Name xml:lang="en">BLUETOOTH</mpeg7:Name>
+      </mpeg7:Term>
+      <!-- 20121226追加 from -->
+      <mpeg7:Term termID="nv_memory">
+        <mpeg7:Name xml:lang="ja">不揮発性メモリ</mpeg7:Name>
+        <mpeg7:Name xml:lang="en">Non-Volatile Memory</mpeg7:Name>
+      </mpeg7:Term>
+      <!-- 20121226追加 to -->
+    </ClassificationScheme>
+  </ClassificationSchemeTable>
+</TVAMain>

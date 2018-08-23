@@ -1,0 +1,96 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- version:20110826001 -->
+<TVAMain xml:lang="ja" xmlns="http://www.arib.or.jp/metadata/tva/2011/03" xmlns:mpeg7="urn:mpeg:mpeg7:schema:2001" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <ClassificationSchemeTable>
+    <ClassificationScheme uri="http://www.arib.or.jp/cs/2011/03/ARIBFileFormatCS" fragmentId="0000000013" fragmentVersion="20110301000000">
+      <mpeg7:Term termID="jpg">
+        <mpeg7:Name xml:lang="en">jpg</mpeg7:Name>
+        <mpeg7:Definition xml:lang="ja">参照情報がJPG 画像であることを表す</mpeg7:Definition>
+      </mpeg7:Term>
+      <mpeg7:Term termID="png">
+        <mpeg7:Name xml:lang="en">png</mpeg7:Name>
+        <mpeg7:Definition xml:lang="ja">参照情報がPNG 画像であることを表す</mpeg7:Definition>
+      </mpeg7:Term>
+      <mpeg7:Term termID="mpg">
+        <mpeg7:Name xml:lang="en">mpg</mpeg7:Name>
+        <mpeg7:Definition xml:lang="ja">参照情報がMPG ファイルであることを表す</mpeg7:Definition>
+      </mpeg7:Term>
+      <mpeg7:Term termID="txt">
+        <mpeg7:Name xml:lang="en">txt</mpeg7:Name>
+        <mpeg7:Definition xml:lang="ja">参照情報がTXT ファイルであることを表す</mpeg7:Definition>
+      </mpeg7:Term>
+      <mpeg7:Term termID="html">
+        <mpeg7:Name xml:lang="en">html</mpeg7:Name>
+        <mpeg7:Definition xml:lang="ja">参照情報がHTML ファイルであることを表す</mpeg7:Definition>
+      </mpeg7:Term>
+      <mpeg7:Term termID="shtml">
+        <mpeg7:Name xml:lang="en">shtml</mpeg7:Name>
+        <mpeg7:Definition xml:lang="ja">参照情報がSHTML ファイルであることを表す</mpeg7:Definition>
+      </mpeg7:Term>
+      <mpeg7:Term termID="cgi">
+        <mpeg7:Name xml:lang="en">cgi</mpeg7:Name>
+        <mpeg7:Definition xml:lang="ja">参照先がCGI であることを表す</mpeg7:Definition>
+      </mpeg7:Term>
+      <mpeg7:Term termID="zip">
+        <mpeg7:Name xml:lang="en">zip</mpeg7:Name>
+        <mpeg7:Definition xml:lang="ja">参照情報がZIP ファイルであることを表す</mpeg7:Definition>
+      </mpeg7:Term>
+      <mpeg7:Term termID="mp4">
+        <mpeg7:Name xml:lang="en">mp4</mpeg7:Name>
+        <mpeg7:Definition xml:lang="ja">参照情報がMP4 ファイルであることを表す</mpeg7:Definition>
+      </mpeg7:Term>
+      <mpeg7:Term termID="gif">
+        <mpeg7:Name xml:lang="en">gif</mpeg7:Name>
+        <mpeg7:Definition xml:lang="ja">参照情報がGIF 画像であることを表す</mpeg7:Definition>
+      </mpeg7:Term>
+      <mpeg7:Term termID="pdf">
+        <mpeg7:Name xml:lang="en">pdf</mpeg7:Name>
+        <mpeg7:Definition xml:lang="ja">参照情報がPDF ファイルであることを表す</mpeg7:Definition>
+      </mpeg7:Term>
+      <mpeg7:Term termID="flv">
+        <mpeg7:Name xml:lang="en">flv</mpeg7:Name>
+        <mpeg7:Definition xml:lang="ja">参照情報がFLV ファイルであることを表す</mpeg7:Definition>
+      </mpeg7:Term>
+      <mpeg7:Term termID="swf">
+        <mpeg7:Name xml:lang="en">swf</mpeg7:Name>
+        <mpeg7:Definition xml:lang="ja">参照情報がSWF ファイルであることを表す</mpeg7:Definition>
+      </mpeg7:Term>
+      <mpeg7:Term termID="wmv">
+        <mpeg7:Name xml:lang="en">wmv</mpeg7:Name>
+        <mpeg7:Definition xml:lang="ja">参照情報がWMV ファイルであることを表す</mpeg7:Definition>
+      </mpeg7:Term>
+      <mpeg7:Term termID="wma">
+        <mpeg7:Name xml:lang="en">wma</mpeg7:Name>
+        <mpeg7:Definition xml:lang="ja">参照情報がWMA ファイルであることを表す</mpeg7:Definition>
+      </mpeg7:Term>
+      <mpeg7:Term termID="mp3">
+        <mpeg7:Name xml:lang="en">mp3</mpeg7:Name>
+        <mpeg7:Definition xml:lang="ja">参照情報がMP3 ファイルであることを表す</mpeg7:Definition>
+      </mpeg7:Term>
+      <mpeg7:Term termID="mpo">
+        <mpeg7:Name xml:lang="en">mpo</mpeg7:Name>
+        <mpeg7:Definition xml:lang="ja">参照情報がMPO ファイル（3D 静止画）であることを表す</mpeg7:Definition>
+      </mpeg7:Term>
+      <mpeg7:Term termID="ts">
+        <mpeg7:Name xml:lang="en">ts</mpeg7:Name>
+        <mpeg7:Definition xml:lang="ja">参照情報がTS ファイルであることを表す</mpeg7:Definition>
+      </mpeg7:Term>
+      <mpeg7:Term termID="xhtml">
+        <mpeg7:Name xml:lang="en">xhtml</mpeg7:Name>
+        <mpeg7:Definition xml:lang="ja">参照情報がXHTML ファイルであることを表す</mpeg7:Definition>
+      </mpeg7:Term>
+      <mpeg7:Term termID="xml">
+        <mpeg7:Name xml:lang="en">xml</mpeg7:Name>
+        <mpeg7:Definition xml:lang="ja">参照情報がXML ファイルであることを表す</mpeg7:Definition>
+      </mpeg7:Term>
+      <mpeg7:Term termID="bml">
+        <mpeg7:Name xml:lang="en">bml</mpeg7:Name>
+        <mpeg7:Definition xml:lang="ja">参照情報がBML ファイルであることを表す</mpeg7:Definition>
+      </mpeg7:Term>
+      <mpeg7:Term termID="saac">
+        <mpeg7:Name xml:lang="en">saac</mpeg7:Name>
+        <mpeg7:Definition xml:lang="ja">参照情報がSAAC ファイルであることを表す</mpeg7:Definition>
+      </mpeg7:Term>
+    </ClassificationScheme>
+  </ClassificationSchemeTable>
+</TVAMain>

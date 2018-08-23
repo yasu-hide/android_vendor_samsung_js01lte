@@ -1,0 +1,152 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- version:20110826001 -->
+<TVAMain xml:lang="ja" xmlns="http://www.arib.or.jp/metadata/tva/2011/03" xmlns:mpeg7="urn:mpeg:mpeg7:schema:2001" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <ClassificationSchemeTable>
+    <ClassificationScheme uri="http://www.arib.or.jp/cs/2006/03/ARIBParentalRatingCS" fragmentId="0000000003" fragmentVersion="20060301000000" domain="//TVAMain/ProgramDescription/ProgramInformationTable/ProgramInformation/BasicDescription/ParentalGuidance/ParentalRating">
+      <mpeg7:Term termID="PG-4">
+        <mpeg7:Name xml:lang="en">PG-4</mpeg7:Name>
+        <mpeg7:Definition xml:lang="ja">4 歳未満の視聴者に対して不適切な内容を含む番組</mpeg7:Definition>
+      </mpeg7:Term>
+      <mpeg7:Term termID="PG-5">
+        <mpeg7:Name xml:lang="en">PG-5</mpeg7:Name>
+        <mpeg7:Definition xml:lang="ja">5 歳未満の視聴者に対して不適切な内容を含む番組</mpeg7:Definition>
+      </mpeg7:Term>
+      <mpeg7:Term termID="PG-6">
+        <mpeg7:Name xml:lang="en">PG-6</mpeg7:Name>
+        <mpeg7:Definition xml:lang="ja">6 歳未満の視聴者に対して不適切な内容を含む番組</mpeg7:Definition>
+      </mpeg7:Term>
+      <mpeg7:Term termID="PG-7">
+        <mpeg7:Name xml:lang="en">PG-7</mpeg7:Name>
+        <mpeg7:Definition xml:lang="ja">7 歳未満の視聴者に対して不適切な内容を含む番組</mpeg7:Definition>
+      </mpeg7:Term>
+      <mpeg7:Term termID="PG-8">
+        <mpeg7:Name xml:lang="en">PG-8</mpeg7:Name>
+        <mpeg7:Definition xml:lang="ja">8 歳未満の視聴者に対して不適切な内容を含む番組</mpeg7:Definition>
+      </mpeg7:Term>
+      <mpeg7:Term termID="PG-9">
+        <mpeg7:Name xml:lang="en">PG-9</mpeg7:Name>
+        <mpeg7:Definition xml:lang="ja">9 歳未満の視聴者に対して不適切な内容を含む番組</mpeg7:Definition>
+      </mpeg7:Term>
+      <mpeg7:Term termID="PG-10">
+        <mpeg7:Name xml:lang="en">PG-10</mpeg7:Name>
+        <mpeg7:Definition xml:lang="ja">10 歳未満の視聴者に対して不適切な内容を含む番組</mpeg7:Definition>
+      </mpeg7:Term>
+      <mpeg7:Term termID="PG-11">
+        <mpeg7:Name xml:lang="en">PG-11</mpeg7:Name>
+        <mpeg7:Definition xml:lang="ja">11 歳未満の視聴者に対して不適切な内容を含む番組</mpeg7:Definition>
+      </mpeg7:Term>
+      <mpeg7:Term termID="PG-12">
+        <mpeg7:Name xml:lang="en">PG-12</mpeg7:Name>
+        <mpeg7:Definition xml:lang="ja">12 歳未満の視聴者に対して不適切な内容を含む番組</mpeg7:Definition>
+      </mpeg7:Term>
+      <mpeg7:Term termID="PG-13">
+        <mpeg7:Name xml:lang="en">PG-13</mpeg7:Name>
+        <mpeg7:Definition xml:lang="ja">13 歳未満の視聴者に対して不適切な内容を含む番組</mpeg7:Definition>
+      </mpeg7:Term>
+      <mpeg7:Term termID="PG-14">
+        <mpeg7:Name xml:lang="en">PG-14</mpeg7:Name>
+        <mpeg7:Definition xml:lang="ja">14 歳未満の視聴者に対して不適切な内容を含む番組</mpeg7:Definition>
+      </mpeg7:Term>
+      <mpeg7:Term termID="PG-15">
+        <mpeg7:Name xml:lang="en">PG-15</mpeg7:Name>
+        <mpeg7:Definition xml:lang="ja">15 歳未満の視聴者に対して不適切な内容を含む番組</mpeg7:Definition>
+      </mpeg7:Term>
+      <mpeg7:Term termID="PG-16">
+        <mpeg7:Name xml:lang="en">PG-16</mpeg7:Name>
+        <mpeg7:Definition xml:lang="ja">16 歳未満の視聴者に対して不適切な内容を含む番組</mpeg7:Definition>
+      </mpeg7:Term>
+      <mpeg7:Term termID="PG-17">
+        <mpeg7:Name xml:lang="en">PG-17</mpeg7:Name>
+        <mpeg7:Definition xml:lang="ja">17 歳未満の視聴者に対して不適切な内容を含む番組</mpeg7:Definition>
+      </mpeg7:Term>
+      <mpeg7:Term termID="PG-18">
+        <mpeg7:Name xml:lang="en">PG-18</mpeg7:Name>
+        <mpeg7:Definition xml:lang="ja">18 歳未満の視聴者に対して不適切な内容を含む番組</mpeg7:Definition>
+      </mpeg7:Term>
+      <mpeg7:Term termID="PG-19">
+        <mpeg7:Name xml:lang="en">PG-19</mpeg7:Name>
+        <mpeg7:Definition xml:lang="ja">19 歳未満の視聴者に対して不適切な内容を含む番組</mpeg7:Definition>
+      </mpeg7:Term>
+      <mpeg7:Term termID="PG-20">
+        <mpeg7:Name xml:lang="en">PG-20</mpeg7:Name>
+        <mpeg7:Definition xml:lang="ja">20 歳未満の視聴者に対して不適切な内容を含む番組</mpeg7:Definition>
+      </mpeg7:Term>
+      <mpeg7:Term termID="R-4">
+        <mpeg7:Name xml:lang="en">R-4</mpeg7:Name>
+        <mpeg7:Definition xml:lang="ja">4 歳未満の視聴者に対して視聴を制限すべき番組</mpeg7:Definition>
+      </mpeg7:Term>
+      <mpeg7:Term termID="R-5">
+        <mpeg7:Name xml:lang="en">R-5</mpeg7:Name>
+        <mpeg7:Definition xml:lang="ja">5 歳未満の視聴者に対して視聴を制限すべき番組</mpeg7:Definition>
+      </mpeg7:Term>
+      <mpeg7:Term termID="R-6">
+        <mpeg7:Name xml:lang="en">R-6</mpeg7:Name>
+        <mpeg7:Definition xml:lang="ja">6 歳未満の視聴者に対して視聴を制限すべき番組</mpeg7:Definition>
+      </mpeg7:Term>
+      <mpeg7:Term termID="R-7">
+        <mpeg7:Name xml:lang="en">R-7</mpeg7:Name>
+        <mpeg7:Definition xml:lang="ja">7 歳未満の視聴者に対して視聴を制限すべき番組</mpeg7:Definition>
+      </mpeg7:Term>
+      <mpeg7:Term termID="R-8">
+        <mpeg7:Name xml:lang="en">R-8</mpeg7:Name>
+        <mpeg7:Definition xml:lang="ja">8 歳未満の視聴者に対して視聴を制限すべき番組</mpeg7:Definition>
+      </mpeg7:Term>
+      <mpeg7:Term termID="R-9">
+        <mpeg7:Name xml:lang="en">R-9</mpeg7:Name>
+        <mpeg7:Definition xml:lang="ja">9 歳未満の視聴者に対して視聴を制限すべき番組</mpeg7:Definition>
+      </mpeg7:Term>
+      <mpeg7:Term termID="R-10">
+        <mpeg7:Name xml:lang="en">R-10</mpeg7:Name>
+        <mpeg7:Definition xml:lang="ja">10 歳未満の視聴者に対して視聴を制限すべき番組</mpeg7:Definition>
+      </mpeg7:Term>
+      <mpeg7:Term termID="R-11">
+        <mpeg7:Name xml:lang="en">R-11</mpeg7:Name>
+        <mpeg7:Definition xml:lang="ja">11 歳未満の視聴者に対して視聴を制限すべき番組</mpeg7:Definition>
+      </mpeg7:Term>
+      <mpeg7:Term termID="R-12">
+        <mpeg7:Name xml:lang="en">R-12</mpeg7:Name>
+        <mpeg7:Definition xml:lang="ja">12 歳未満の視聴者に対して視聴を制限すべき番組</mpeg7:Definition>
+      </mpeg7:Term>
+      <mpeg7:Term termID="R-13">
+        <mpeg7:Name xml:lang="en">R-13</mpeg7:Name>
+        <mpeg7:Definition xml:lang="ja">13 歳未満の視聴者に対して視聴を制限すべき番組</mpeg7:Definition>
+      </mpeg7:Term>
+      <mpeg7:Term termID="R-14">
+        <mpeg7:Name xml:lang="en">R-14</mpeg7:Name>
+        <mpeg7:Definition xml:lang="ja">14 歳未満の視聴者に対して視聴を制限すべき番組</mpeg7:Definition>
+      </mpeg7:Term>
+      <mpeg7:Term termID="R-15">
+        <mpeg7:Name xml:lang="en">R-15</mpeg7:Name>
+        <mpeg7:Definition xml:lang="ja">15 歳未満の視聴者に対して視聴を制限すべき番組</mpeg7:Definition>
+      </mpeg7:Term>
+      <mpeg7:Term termID="R-16">
+        <mpeg7:Name xml:lang="en">R-16</mpeg7:Name>
+        <mpeg7:Definition xml:lang="ja">16 歳未満の視聴者に対して視聴を制限すべき番組</mpeg7:Definition>
+      </mpeg7:Term>
+      <mpeg7:Term termID="R-17">
+        <mpeg7:Name xml:lang="en">R-17</mpeg7:Name>
+        <mpeg7:Definition xml:lang="ja">17 歳未満の視聴者に対して視聴を制限すべき番組</mpeg7:Definition>
+      </mpeg7:Term>
+      <mpeg7:Term termID="R-18">
+        <mpeg7:Name xml:lang="en">R-18</mpeg7:Name>
+        <mpeg7:Definition xml:lang="ja">18 歳未満の視聴者に対して視聴を制限すべき番組</mpeg7:Definition>
+      </mpeg7:Term>
+      <mpeg7:Term termID="R-19">
+        <mpeg7:Name xml:lang="en">R-19</mpeg7:Name>
+        <mpeg7:Definition xml:lang="ja">19 歳未満の視聴者に対して視聴を制限すべき番組</mpeg7:Definition>
+      </mpeg7:Term>
+      <mpeg7:Term termID="R-20">
+        <mpeg7:Name xml:lang="en">R-20</mpeg7:Name>
+        <mpeg7:Definition xml:lang="ja">20 歳未満の視聴者に対して視聴を制限すべき番組</mpeg7:Definition>
+      </mpeg7:Term>
+      <mpeg7:Term termID="N">
+        <mpeg7:Name xml:lang="en">N</mpeg7:Name>
+        <mpeg7:Definition xml:lang="ja">年齢制限指定を明確にすることが困難であるため視聴については注意が必要である番組</mpeg7:Definition>
+      </mpeg7:Term>
+      <mpeg7:Term termID="G">
+        <mpeg7:Name xml:lang="en">G</mpeg7:Name>
+        <mpeg7:Definition xml:lang="ja">年齢制限がない番組</mpeg7:Definition>
+      </mpeg7:Term>
+    </ClassificationScheme>
+  </ClassificationSchemeTable>
+</TVAMain>
